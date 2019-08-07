@@ -1,1516 +1,1516 @@
 
-# ½Ç½À (n_splits¸¦ 3~10±îÁö ÀÔ·ÂÇÏ¿© ÃÖ°í ¸ğµ¨ Ãâ·Â)
+# ì‹¤ìŠµ (n_splitsë¥¼ 3~10ê¹Œì§€ ì…ë ¥í•˜ì—¬ ìµœê³  ëª¨ë¸ 3ê°œ ì¶œë ¥)
 
 ===========================================================n_split_value: 6
-AdaBoostClassifier ÀÇ Á¤´ä·ü=
+AdaBoostClassifier ì˜ ì •ë‹µë¥ =
 [0.96       0.89333333]
-BaggingClassifier ÀÇ Á¤´ä·ü=
+BaggingClassifier ì˜ ì •ë‹µë¥ =
 [0.92          0.93333333]
-BernoulliNB ÀÇ Á¤´ä·ü=
+BernoulliNB ì˜ ì •ë‹µë¥ =
 [0.28       0.29333333]
-CalibratedClassifierCV ÀÇ Á¤´ä·ü=
+CalibratedClassifierCV ì˜ ì •ë‹µë¥ =
 [0.96       0.86666667]
-ComplementNB ÀÇ Á¤´ä·ü=
+ComplementNB ì˜ ì •ë‹µë¥ =
 [0.66666667 0.66666667]
-DecisionTreeClassifier ÀÇ Á¤´ä·ü=
+DecisionTreeClassifier ì˜ ì •ë‹µë¥ =
 [0.96 0.84]
-ExtraTreeClassifier ÀÇ Á¤´ä·ü=
+ExtraTreeClassifier ì˜ ì •ë‹µë¥ =
 [0.84 0.92]
-ExtraTreesClassifier ÀÇ Á¤´ä·ü=
+ExtraTreesClassifier ì˜ ì •ë‹µë¥ =
 [0.97333333 0.94666667]
-GaussianNB ÀÇ Á¤´ä·ü=
+GaussianNB ì˜ ì •ë‹µë¥ =
 [0.96       0.94666667]
-GaussianProcessClassifier ÀÇ Á¤´ä·ü=
+GaussianProcessClassifier ì˜ ì •ë‹µë¥ =
 [0.93333333 0.97333333]
-GradientBoostingClassifier ÀÇ Á¤´ä·ü=
+GradientBoostingClassifier ì˜ ì •ë‹µë¥ =
 [0.92       0.97333333]
-KNeighborsClassifier ÀÇ Á¤´ä·ü=
+KNeighborsClassifier ì˜ ì •ë‹µë¥ =
 [0.96       0.97333333]
-LabelPropagation ÀÇ Á¤´ä·ü=
+LabelPropagation ì˜ ì •ë‹µë¥ =
 [0.96       0.94666667]
-LabelSpreading ÀÇ Á¤´ä·ü=
+LabelSpreading ì˜ ì •ë‹µë¥ =
 [0.96       0.97333333]
-LinearDiscriminantAnalysis ÀÇ Á¤´ä·ü=
+LinearDiscriminantAnalysis ì˜ ì •ë‹µë¥ =
 [0.96 1.  ]
-LinearSVC ÀÇ Á¤´ä·ü=
+LinearSVC ì˜ ì •ë‹µë¥ =
 [0.96 0.96]
-LogisticRegression ÀÇ Á¤´ä·ü=
+LogisticRegression ì˜ ì •ë‹µë¥ =
 [0.93333333 0.94666667]
-LogisticRegressionCV ÀÇ Á¤´ä·ü=
+LogisticRegressionCV ì˜ ì •ë‹µë¥ =
 [0.96 0.88]
-MLPClassifier ÀÇ Á¤´ä·ü=
+MLPClassifier ì˜ ì •ë‹µë¥ =
 [0.96       0.97333333]
-MultinomialNB ÀÇ Á¤´ä·ü=
+MultinomialNB ì˜ ì •ë‹µë¥ =
 [0.65333333 0.64      ]
-NearestCentroid ÀÇ Á¤´ä·ü=
+NearestCentroid ì˜ ì •ë‹µë¥ =
 [0.92       0.90666667]
-NuSVC ÀÇ Á¤´ä·ü=
+NuSVC ì˜ ì •ë‹µë¥ =
 [0.96       0.94666667]
-PassiveAggressiveClassifier ÀÇ Á¤´ä·ü=
+PassiveAggressiveClassifier ì˜ ì •ë‹µë¥ =
 [0.62666667 0.61333333]
-Perceptron ÀÇ Á¤´ä·ü=
+Perceptron ì˜ ì •ë‹µë¥ =
 [0.68       0.34666667]
-QuadraticDiscriminantAnalysis ÀÇ Á¤´ä·ü=
+QuadraticDiscriminantAnalysis ì˜ ì •ë‹µë¥ =
 [0.97333333 0.97333333]
-RadiusNeighborsClassifier ÀÇ Á¤´ä·ü=
+RadiusNeighborsClassifier ì˜ ì •ë‹µë¥ =
 [0.96       0.93333333]
-RandomForestClassifier ÀÇ Á¤´ä·ü=
+RandomForestClassifier ì˜ ì •ë‹µë¥ =
 [0.96 0.96]
-RidgeClassifier ÀÇ Á¤´ä·ü=
+RidgeClassifier ì˜ ì •ë‹µë¥ =
 [0.8        0.78666667]
-RidgeClassifierCV ÀÇ Á¤´ä·ü=
+RidgeClassifierCV ì˜ ì •ë‹µë¥ =
 [0.8  0.84]
-SGDClassifier ÀÇ Á¤´ä·ü=
+SGDClassifier ì˜ ì •ë‹µë¥ =
 [0.68 0.28]
-SVC ÀÇ Á¤´ä·ü=
+SVC ì˜ ì •ë‹µë¥ =
 [0.96       0.98666667]
 n_split_value: 6
-AdaBoostClassifier ÀÇ Á¤´ä·ü=
+AdaBoostClassifier ì˜ ì •ë‹µë¥ =
 [0.96 0.92]
-BaggingClassifier ÀÇ Á¤´ä·ü=
+BaggingClassifier ì˜ ì •ë‹µë¥ =
 [0.96       0.93333333]
-BernoulliNB ÀÇ Á¤´ä·ü=
+BernoulliNB ì˜ ì •ë‹µë¥ =
 [0.32       0.30666667]
-CalibratedClassifierCV ÀÇ Á¤´ä·ü=
+CalibratedClassifierCV ì˜ ì •ë‹µë¥ =
 [0.88 0.88]
-ComplementNB ÀÇ Á¤´ä·ü=
+ComplementNB ì˜ ì •ë‹µë¥ =
 [0.68       0.65333333]
-DecisionTreeClassifier ÀÇ Á¤´ä·ü=
+DecisionTreeClassifier ì˜ ì •ë‹µë¥ =
 [0.96       0.94666667]
-ExtraTreeClassifier ÀÇ Á¤´ä·ü=
+ExtraTreeClassifier ì˜ ì •ë‹µë¥ =
 [0.93333333 0.97333333]
-ExtraTreesClassifier ÀÇ Á¤´ä·ü=
+ExtraTreesClassifier ì˜ ì •ë‹µë¥ =
 [0.94666667 0.96      ]
-GaussianNB ÀÇ Á¤´ä·ü=
+GaussianNB ì˜ ì •ë‹µë¥ =
 [0.93333333 0.96      ]
-GaussianProcessClassifier ÀÇ Á¤´ä·ü=
+GaussianProcessClassifier ì˜ ì •ë‹µë¥ =
 [0.92 0.96]
-GradientBoostingClassifier ÀÇ Á¤´ä·ü=
+GradientBoostingClassifier ì˜ ì •ë‹µë¥ =
 [0.97333333 0.89333333]
-KNeighborsClassifier ÀÇ Á¤´ä·ü=
+KNeighborsClassifier ì˜ ì •ë‹µë¥ =
 [0.93333333 0.94666667]
-LabelPropagation ÀÇ Á¤´ä·ü=
+LabelPropagation ì˜ ì •ë‹µë¥ =
 [0.94666667 0.96      ]
-LabelSpreading ÀÇ Á¤´ä·ü=
+LabelSpreading ì˜ ì •ë‹µë¥ =
 [0.96 0.92]
-LinearDiscriminantAnalysis ÀÇ Á¤´ä·ü=
+LinearDiscriminantAnalysis ì˜ ì •ë‹µë¥ =
 [0.98666667 0.97333333]
-LinearSVC ÀÇ Á¤´ä·ü=
+LinearSVC ì˜ ì •ë‹µë¥ =
 [0.92 0.96]
-LogisticRegression ÀÇ Á¤´ä·ü=
+LogisticRegression ì˜ ì •ë‹µë¥ =
 [0.93333333 0.94666667]
-LogisticRegressionCV ÀÇ Á¤´ä·ü=
+LogisticRegressionCV ì˜ ì •ë‹µë¥ =
 [0.8        0.94666667]
-MLPClassifier ÀÇ Á¤´ä·ü=
+MLPClassifier ì˜ ì •ë‹µë¥ =
 [0.94666667 0.98666667]
-MultinomialNB ÀÇ Á¤´ä·ü=
+MultinomialNB ì˜ ì •ë‹µë¥ =
 [0.65333333 0.73333333]
-NearestCentroid ÀÇ Á¤´ä·ü=
+NearestCentroid ì˜ ì •ë‹µë¥ =
 [0.86666667 0.97333333]
-NuSVC ÀÇ Á¤´ä·ü=
+NuSVC ì˜ ì •ë‹µë¥ =
 [0.94666667 0.96      ]
-PassiveAggressiveClassifier ÀÇ Á¤´ä·ü=
+PassiveAggressiveClassifier ì˜ ì •ë‹µë¥ =
 [0.68 0.68]
-Perceptron ÀÇ Á¤´ä·ü=
+Perceptron ì˜ ì •ë‹µë¥ =
 [0.49333333 0.77333333]
-QuadraticDiscriminantAnalysis ÀÇ Á¤´ä·ü=
+QuadraticDiscriminantAnalysis ì˜ ì •ë‹µë¥ =
 [0.96 0.96]
-RadiusNeighborsClassifier ÀÇ Á¤´ä·ü=
+RadiusNeighborsClassifier ì˜ ì •ë‹µë¥ =
 [0.88       0.98666667]
-RandomForestClassifier ÀÇ Á¤´ä·ü=
+RandomForestClassifier ì˜ ì •ë‹µë¥ =
 [0.93333333 0.97333333]
-RidgeClassifier ÀÇ Á¤´ä·ü=
+RidgeClassifier ì˜ ì •ë‹µë¥ =
 [0.89333333 0.78666667]
-RidgeClassifierCV ÀÇ Á¤´ä·ü=
+RidgeClassifierCV ì˜ ì •ë‹µë¥ =
 [0.77333333 0.85333333]
-SGDClassifier ÀÇ Á¤´ä·ü=
+SGDClassifier ì˜ ì •ë‹µë¥ =
 [0.73333333 0.62666667]
-SVC ÀÇ Á¤´ä·ü=
+SVC ì˜ ì •ë‹µë¥ =
 [0.92       0.97333333]
 n_split_value: 6
-AdaBoostClassifier ÀÇ Á¤´ä·ü=
+AdaBoostClassifier ì˜ ì •ë‹µë¥ =
 [0.94666667 0.93333333]
-BaggingClassifier ÀÇ Á¤´ä·ü=
+BaggingClassifier ì˜ ì •ë‹µë¥ =
 [0.93333333 0.96      ]
-BernoulliNB ÀÇ Á¤´ä·ü=
+BernoulliNB ì˜ ì •ë‹µë¥ =
 [0.29333333 0.29333333]
-CalibratedClassifierCV ÀÇ Á¤´ä·ü=
+CalibratedClassifierCV ì˜ ì •ë‹µë¥ =
 [1.         0.85333333]
-ComplementNB ÀÇ Á¤´ä·ü=
+ComplementNB ì˜ ì •ë‹µë¥ =
 [0.61333333 0.72      ]
-DecisionTreeClassifier ÀÇ Á¤´ä·ü=
+DecisionTreeClassifier ì˜ ì •ë‹µë¥ =
 [0.94666667 0.97333333]
-ExtraTreeClassifier ÀÇ Á¤´ä·ü=
+ExtraTreeClassifier ì˜ ì •ë‹µë¥ =
 [0.93333333 0.93333333]
-ExtraTreesClassifier ÀÇ Á¤´ä·ü=
+ExtraTreesClassifier ì˜ ì •ë‹µë¥ =
 [0.96       0.93333333]
-GaussianNB ÀÇ Á¤´ä·ü=
+GaussianNB ì˜ ì •ë‹µë¥ =
 [0.92 0.96]
-GaussianProcessClassifier ÀÇ Á¤´ä·ü=
+GaussianProcessClassifier ì˜ ì •ë‹µë¥ =
 [0.94666667 0.97333333]
-GradientBoostingClassifier ÀÇ Á¤´ä·ü=
+GradientBoostingClassifier ì˜ ì •ë‹µë¥ =
 [0.90666667 0.96      ]
-KNeighborsClassifier ÀÇ Á¤´ä·ü=
+KNeighborsClassifier ì˜ ì •ë‹µë¥ =
 [0.97333333 0.96      ]
-LabelPropagation ÀÇ Á¤´ä·ü=
+LabelPropagation ì˜ ì •ë‹µë¥ =
 [0.96 0.96]
-LabelSpreading ÀÇ Á¤´ä·ü=
+LabelSpreading ì˜ ì •ë‹µë¥ =
 [0.96       0.94666667]
-LinearDiscriminantAnalysis ÀÇ Á¤´ä·ü=
+LinearDiscriminantAnalysis ì˜ ì •ë‹µë¥ =
 [0.97333333 0.97333333]
-LinearSVC ÀÇ Á¤´ä·ü=
+LinearSVC ì˜ ì •ë‹µë¥ =
 [0.92       0.97333333]
-LogisticRegression ÀÇ Á¤´ä·ü=
+LogisticRegression ì˜ ì •ë‹µë¥ =
 [0.94666667 0.93333333]
-LogisticRegressionCV ÀÇ Á¤´ä·ü=
+LogisticRegressionCV ì˜ ì •ë‹µë¥ =
 [0.90666667 0.97333333]
-MLPClassifier ÀÇ Á¤´ä·ü=
+MLPClassifier ì˜ ì •ë‹µë¥ =
 [0.96       0.97333333]
-MultinomialNB ÀÇ Á¤´ä·ü=
+MultinomialNB ì˜ ì •ë‹µë¥ =
 [0.58666667 0.61333333]
-NearestCentroid ÀÇ Á¤´ä·ü=
+NearestCentroid ì˜ ì •ë‹µë¥ =
 [0.94666667 0.92      ]
-NuSVC ÀÇ Á¤´ä·ü=
+NuSVC ì˜ ì •ë‹µë¥ =
 [0.97333333 0.97333333]
-PassiveAggressiveClassifier ÀÇ Á¤´ä·ü=
+PassiveAggressiveClassifier ì˜ ì •ë‹µë¥ =
 [0.89333333 0.92      ]
-Perceptron ÀÇ Á¤´ä·ü=
+Perceptron ì˜ ì •ë‹µë¥ =
 [0.26666667 0.6       ]
-QuadraticDiscriminantAnalysis ÀÇ Á¤´ä·ü=
+QuadraticDiscriminantAnalysis ì˜ ì •ë‹µë¥ =
 [0.97333333 0.98666667]
-RadiusNeighborsClassifier ÀÇ Á¤´ä·ü=
+RadiusNeighborsClassifier ì˜ ì •ë‹µë¥ =
 [0.97333333 0.93333333]
-RandomForestClassifier ÀÇ Á¤´ä·ü=
+RandomForestClassifier ì˜ ì •ë‹µë¥ =
 [1.         0.93333333]
-RidgeClassifier ÀÇ Á¤´ä·ü=
+RidgeClassifier ì˜ ì •ë‹µë¥ =
 [0.77333333 0.76      ]
-RidgeClassifierCV ÀÇ Á¤´ä·ü=
+RidgeClassifierCV ì˜ ì •ë‹µë¥ =
 [0.78666667 0.90666667]
-SGDClassifier ÀÇ Á¤´ä·ü=
+SGDClassifier ì˜ ì •ë‹µë¥ =
 [0.72       0.77333333]
-SVC ÀÇ Á¤´ä·ü=
+SVC ì˜ ì •ë‹µë¥ =
 [0.98666667 0.94666667]
 n_split_value: 6
-AdaBoostClassifier ÀÇ Á¤´ä·ü=
+AdaBoostClassifier ì˜ ì •ë‹µë¥ =
 [0.97333333 0.94666667]
-BaggingClassifier ÀÇ Á¤´ä·ü=
+BaggingClassifier ì˜ ì •ë‹µë¥ =
 [0.94666667 0.96      ]
-BernoulliNB ÀÇ Á¤´ä·ü=
+BernoulliNB ì˜ ì •ë‹µë¥ =
 [0.26666667 0.29333333]
-CalibratedClassifierCV ÀÇ Á¤´ä·ü=
+CalibratedClassifierCV ì˜ ì •ë‹µë¥ =
 [0.96       0.89333333]
-ComplementNB ÀÇ Á¤´ä·ü=
+ComplementNB ì˜ ì •ë‹µë¥ =
 [0.62666667 0.70666667]
-DecisionTreeClassifier ÀÇ Á¤´ä·ü=
+DecisionTreeClassifier ì˜ ì •ë‹µë¥ =
 [0.98666667 0.94666667]
-ExtraTreeClassifier ÀÇ Á¤´ä·ü=
+ExtraTreeClassifier ì˜ ì •ë‹µë¥ =
 [0.94666667 0.97333333]
-ExtraTreesClassifier ÀÇ Á¤´ä·ü=
+ExtraTreesClassifier ì˜ ì •ë‹µë¥ =
 [0.96 0.92]
-GaussianNB ÀÇ Á¤´ä·ü=
+GaussianNB ì˜ ì •ë‹µë¥ =
 [0.98666667 0.94666667]
-GaussianProcessClassifier ÀÇ Á¤´ä·ü=
+GaussianProcessClassifier ì˜ ì •ë‹µë¥ =
 [0.98666667 0.97333333]
-GradientBoostingClassifier ÀÇ Á¤´ä·ü=
+GradientBoostingClassifier ì˜ ì •ë‹µë¥ =
 [0.96       0.93333333]
-KNeighborsClassifier ÀÇ Á¤´ä·ü=
+KNeighborsClassifier ì˜ ì •ë‹µë¥ =
 [0.97333333 0.93333333]
-LabelPropagation ÀÇ Á¤´ä·ü=
+LabelPropagation ì˜ ì •ë‹µë¥ =
 [0.93333333 0.98666667]
-LabelSpreading ÀÇ Á¤´ä·ü=
+LabelSpreading ì˜ ì •ë‹µë¥ =
 [0.97333333 0.97333333]
-LinearDiscriminantAnalysis ÀÇ Á¤´ä·ü=
+LinearDiscriminantAnalysis ì˜ ì •ë‹µë¥ =
 [0.94666667 1.        ]
-LinearSVC ÀÇ Á¤´ä·ü=
+LinearSVC ì˜ ì •ë‹µë¥ =
 [0.94666667 0.94666667]
-LogisticRegression ÀÇ Á¤´ä·ü=
+LogisticRegression ì˜ ì •ë‹µë¥ =
 [0.90666667 0.98666667]
-LogisticRegressionCV ÀÇ Á¤´ä·ü=
+LogisticRegressionCV ì˜ ì •ë‹µë¥ =
 [0.94666667 0.84      ]
-MLPClassifier ÀÇ Á¤´ä·ü=
+MLPClassifier ì˜ ì •ë‹µë¥ =
 [0.97333333 0.97333333]
-MultinomialNB ÀÇ Á¤´ä·ü=
+MultinomialNB ì˜ ì •ë‹µë¥ =
 [0.82666667 0.86666667]
-NearestCentroid ÀÇ Á¤´ä·ü=
+NearestCentroid ì˜ ì •ë‹µë¥ =
 [0.93333333 0.92      ]
-NuSVC ÀÇ Á¤´ä·ü=
+NuSVC ì˜ ì •ë‹µë¥ =
 [0.94666667 0.96      ]
-PassiveAggressiveClassifier ÀÇ Á¤´ä·ü=
+PassiveAggressiveClassifier ì˜ ì •ë‹µë¥ =
 [0.82666667 0.86666667]
-Perceptron ÀÇ Á¤´ä·ü=
+Perceptron ì˜ ì •ë‹µë¥ =
 [0.50666667 0.33333333]
-QuadraticDiscriminantAnalysis ÀÇ Á¤´ä·ü=
+QuadraticDiscriminantAnalysis ì˜ ì •ë‹µë¥ =
 [0.96       0.97333333]
-RadiusNeighborsClassifier ÀÇ Á¤´ä·ü=
+RadiusNeighborsClassifier ì˜ ì •ë‹µë¥ =
 [0.90666667 0.90666667]
-RandomForestClassifier ÀÇ Á¤´ä·ü=
+RandomForestClassifier ì˜ ì •ë‹µë¥ =
 [0.92       0.98666667]
-RidgeClassifier ÀÇ Á¤´ä·ü=
+RidgeClassifier ì˜ ì •ë‹µë¥ =
 [0.8        0.89333333]
-RidgeClassifierCV ÀÇ Á¤´ä·ü=
+RidgeClassifierCV ì˜ ì •ë‹µë¥ =
 [0.86666667 0.82666667]
-SGDClassifier ÀÇ Á¤´ä·ü=
+SGDClassifier ì˜ ì •ë‹µë¥ =
 [0.93333333 0.68      ]
-SVC ÀÇ Á¤´ä·ü=
+SVC ì˜ ì •ë‹µë¥ =
 [0.97333333 0.97333333]
 n_split_value: 6
-AdaBoostClassifier ÀÇ Á¤´ä·ü=
+AdaBoostClassifier ì˜ ì •ë‹µë¥ =
 [0.93333333 0.94666667]
-BaggingClassifier ÀÇ Á¤´ä·ü=
+BaggingClassifier ì˜ ì •ë‹µë¥ =
 [0.94666667 0.94666667]
-BernoulliNB ÀÇ Á¤´ä·ü=
+BernoulliNB ì˜ ì •ë‹µë¥ =
 [0.32 0.32]
-CalibratedClassifierCV ÀÇ Á¤´ä·ü=
+CalibratedClassifierCV ì˜ ì •ë‹µë¥ =
 [0.92       0.86666667]
-ComplementNB ÀÇ Á¤´ä·ü=
+ComplementNB ì˜ ì •ë‹µë¥ =
 [0.6        0.73333333]
-DecisionTreeClassifier ÀÇ Á¤´ä·ü=
+DecisionTreeClassifier ì˜ ì •ë‹µë¥ =
 [0.90666667 0.90666667]
-ExtraTreeClassifier ÀÇ Á¤´ä·ü=
+ExtraTreeClassifier ì˜ ì •ë‹µë¥ =
 [0.92 0.92]
-ExtraTreesClassifier ÀÇ Á¤´ä·ü=
+ExtraTreesClassifier ì˜ ì •ë‹µë¥ =
 [0.96       0.94666667]
-GaussianNB ÀÇ Á¤´ä·ü=
+GaussianNB ì˜ ì •ë‹µë¥ =
 [0.96 0.96]
-GaussianProcessClassifier ÀÇ Á¤´ä·ü=
+GaussianProcessClassifier ì˜ ì •ë‹µë¥ =
 [0.96       0.97333333]
-GradientBoostingClassifier ÀÇ Á¤´ä·ü=
+GradientBoostingClassifier ì˜ ì •ë‹µë¥ =
 [0.96 0.92]
-KNeighborsClassifier ÀÇ Á¤´ä·ü=
+KNeighborsClassifier ì˜ ì •ë‹µë¥ =
 [0.96       0.97333333]
-LabelPropagation ÀÇ Á¤´ä·ü=
+LabelPropagation ì˜ ì •ë‹µë¥ =
 [0.97333333 0.96      ]
-LabelSpreading ÀÇ Á¤´ä·ü=
+LabelSpreading ì˜ ì •ë‹µë¥ =
 [0.96       0.94666667]
-LinearDiscriminantAnalysis ÀÇ Á¤´ä·ü=
+LinearDiscriminantAnalysis ì˜ ì •ë‹µë¥ =
 [0.98666667 0.97333333]
-LinearSVC ÀÇ Á¤´ä·ü=
+LinearSVC ì˜ ì •ë‹µë¥ =
 [0.96 0.96]
-LogisticRegression ÀÇ Á¤´ä·ü=
+LogisticRegression ì˜ ì •ë‹µë¥ =
 [0.93333333 0.94666667]
-LogisticRegressionCV ÀÇ Á¤´ä·ü=
+LogisticRegressionCV ì˜ ì •ë‹µë¥ =
 [0.94666667 0.93333333]
-MLPClassifier ÀÇ Á¤´ä·ü=
+MLPClassifier ì˜ ì •ë‹µë¥ =
 [1.   0.96]
-MultinomialNB ÀÇ Á¤´ä·ü=
+MultinomialNB ì˜ ì •ë‹µë¥ =
 [0.68       0.85333333]
-NearestCentroid ÀÇ Á¤´ä·ü=
+NearestCentroid ì˜ ì •ë‹µë¥ =
 [0.89333333 0.94666667]
-NuSVC ÀÇ Á¤´ä·ü=
+NuSVC ì˜ ì •ë‹µë¥ =
 [0.97333333 0.96      ]
-PassiveAggressiveClassifier ÀÇ Á¤´ä·ü=
+PassiveAggressiveClassifier ì˜ ì •ë‹µë¥ =
 [0.66666667 0.68      ]
-Perceptron ÀÇ Á¤´ä·ü=
+Perceptron ì˜ ì •ë‹µë¥ =
 [0.97333333 0.58666667]
-QuadraticDiscriminantAnalysis ÀÇ Á¤´ä·ü=
+QuadraticDiscriminantAnalysis ì˜ ì •ë‹µë¥ =
 [1.         0.98666667]
-RadiusNeighborsClassifier ÀÇ Á¤´ä·ü=
+RadiusNeighborsClassifier ì˜ ì •ë‹µë¥ =
 [0.94666667 0.96      ]
-RandomForestClassifier ÀÇ Á¤´ä·ü=
+RandomForestClassifier ì˜ ì •ë‹µë¥ =
 [0.94666667 0.94666667]
-RidgeClassifier ÀÇ Á¤´ä·ü=
+RidgeClassifier ì˜ ì •ë‹µë¥ =
 [0.78666667 0.90666667]
-RidgeClassifierCV ÀÇ Á¤´ä·ü=
+RidgeClassifierCV ì˜ ì •ë‹µë¥ =
 [0.84       0.77333333]
-SGDClassifier ÀÇ Á¤´ä·ü=
+SGDClassifier ì˜ ì •ë‹µë¥ =
 [0.72 0.32]
-SVC ÀÇ Á¤´ä·ü=
+SVC ì˜ ì •ë‹µë¥ =
 [0.97333333 0.97333333]
 n_split_value: 6
-AdaBoostClassifier ÀÇ Á¤´ä·ü=
+AdaBoostClassifier ì˜ ì •ë‹µë¥ =
 [0.94666667 0.97333333]
-BaggingClassifier ÀÇ Á¤´ä·ü=
+BaggingClassifier ì˜ ì •ë‹µë¥ =
 [0.92       0.94666667]
-BernoulliNB ÀÇ Á¤´ä·ü=
+BernoulliNB ì˜ ì •ë‹µë¥ =
 [0.32       0.30666667]
-CalibratedClassifierCV ÀÇ Á¤´ä·ü=
+CalibratedClassifierCV ì˜ ì •ë‹µë¥ =
 [0.84       0.90666667]
-ComplementNB ÀÇ Á¤´ä·ü=
+ComplementNB ì˜ ì •ë‹µë¥ =
 [0.69333333 0.64      ]
-DecisionTreeClassifier ÀÇ Á¤´ä·ü=
+DecisionTreeClassifier ì˜ ì •ë‹µë¥ =
 [0.94666667 0.94666667]
-ExtraTreeClassifier ÀÇ Á¤´ä·ü=
+ExtraTreeClassifier ì˜ ì •ë‹µë¥ =
 [0.92       0.94666667]
-ExtraTreesClassifier ÀÇ Á¤´ä·ü=
+ExtraTreesClassifier ì˜ ì •ë‹µë¥ =
 [0.96       0.93333333]
-GaussianNB ÀÇ Á¤´ä·ü=
+GaussianNB ì˜ ì •ë‹µë¥ =
 [0.98666667 0.93333333]
-GaussianProcessClassifier ÀÇ Á¤´ä·ü=
+GaussianProcessClassifier ì˜ ì •ë‹µë¥ =
 [0.94666667 0.89333333]
-GradientBoostingClassifier ÀÇ Á¤´ä·ü=
+GradientBoostingClassifier ì˜ ì •ë‹µë¥ =
 [0.97333333 0.96      ]
-KNeighborsClassifier ÀÇ Á¤´ä·ü=
+KNeighborsClassifier ì˜ ì •ë‹µë¥ =
 [0.93333333 0.97333333]
-LabelPropagation ÀÇ Á¤´ä·ü=
+LabelPropagation ì˜ ì •ë‹µë¥ =
 [0.94666667 0.98666667]
-LabelSpreading ÀÇ Á¤´ä·ü=
+LabelSpreading ì˜ ì •ë‹µë¥ =
 [0.94666667 0.96      ]
-LinearDiscriminantAnalysis ÀÇ Á¤´ä·ü=
+LinearDiscriminantAnalysis ì˜ ì •ë‹µë¥ =
 [0.98666667 0.97333333]
-LinearSVC ÀÇ Á¤´ä·ü=
+LinearSVC ì˜ ì •ë‹µë¥ =
 [0.97333333 0.88      ]
-LogisticRegression ÀÇ Á¤´ä·ü=
+LogisticRegression ì˜ ì •ë‹µë¥ =
 [0.96       0.94666667]
-LogisticRegressionCV ÀÇ Á¤´ä·ü=
+LogisticRegressionCV ì˜ ì •ë‹µë¥ =
 [0.82666667 0.96      ]
-MLPClassifier ÀÇ Á¤´ä·ü=
+MLPClassifier ì˜ ì •ë‹µë¥ =
 [1.         0.94666667]
-MultinomialNB ÀÇ Á¤´ä·ü=
+MultinomialNB ì˜ ì •ë‹µë¥ =
 [0.8        0.78666667]
-NearestCentroid ÀÇ Á¤´ä·ü=
+NearestCentroid ì˜ ì •ë‹µë¥ =
 [0.90666667 0.93333333]
-NuSVC ÀÇ Á¤´ä·ü=
+NuSVC ì˜ ì •ë‹µë¥ =
 [0.97333333 0.98666667]
-PassiveAggressiveClassifier ÀÇ Á¤´ä·ü=
+PassiveAggressiveClassifier ì˜ ì •ë‹µë¥ =
 [0.62666667 0.70666667]
-Perceptron ÀÇ Á¤´ä·ü=
+Perceptron ì˜ ì •ë‹µë¥ =
 [0.29333333 0.86666667]
-QuadraticDiscriminantAnalysis ÀÇ Á¤´ä·ü=
+QuadraticDiscriminantAnalysis ì˜ ì •ë‹µë¥ =
 [0.96       0.98666667]
-RadiusNeighborsClassifier ÀÇ Á¤´ä·ü=
+RadiusNeighborsClassifier ì˜ ì •ë‹µë¥ =
 [0.96       0.85333333]
-RandomForestClassifier ÀÇ Á¤´ä·ü=
+RandomForestClassifier ì˜ ì •ë‹µë¥ =
 [0.92       0.97333333]
-RidgeClassifier ÀÇ Á¤´ä·ü=
+RidgeClassifier ì˜ ì •ë‹µë¥ =
 [0.82666667 0.88      ]
-RidgeClassifierCV ÀÇ Á¤´ä·ü=
+RidgeClassifierCV ì˜ ì •ë‹µë¥ =
 [0.82666667 0.84      ]
-SGDClassifier ÀÇ Á¤´ä·ü=
+SGDClassifier ì˜ ì •ë‹µë¥ =
 [0.58666667 0.8       ]
-SVC ÀÇ Á¤´ä·ü=
+SVC ì˜ ì •ë‹µë¥ =
 [0.94666667 0.96      ]
 n_split_value: 6
-AdaBoostClassifier ÀÇ Á¤´ä·ü=
+AdaBoostClassifier ì˜ ì •ë‹µë¥ =
 [0.92 0.96]
-BaggingClassifier ÀÇ Á¤´ä·ü=
+BaggingClassifier ì˜ ì •ë‹µë¥ =
 [0.98666667 0.92      ]
-BernoulliNB ÀÇ Á¤´ä·ü=
+BernoulliNB ì˜ ì •ë‹µë¥ =
 [0.30666667 0.29333333]
-CalibratedClassifierCV ÀÇ Á¤´ä·ü=
+CalibratedClassifierCV ì˜ ì •ë‹µë¥ =
 [0.96       0.90666667]
-ComplementNB ÀÇ Á¤´ä·ü=
+ComplementNB ì˜ ì •ë‹µë¥ =
 [0.64       0.69333333]
-DecisionTreeClassifier ÀÇ Á¤´ä·ü=
+DecisionTreeClassifier ì˜ ì •ë‹µë¥ =
 [0.92       0.97333333]
-ExtraTreeClassifier ÀÇ Á¤´ä·ü=
+ExtraTreeClassifier ì˜ ì •ë‹µë¥ =
 [0.96       0.98666667]
-ExtraTreesClassifier ÀÇ Á¤´ä·ü=
+ExtraTreesClassifier ì˜ ì •ë‹µë¥ =
 [0.97333333 0.93333333]
-GaussianNB ÀÇ Á¤´ä·ü=
+GaussianNB ì˜ ì •ë‹µë¥ =
 [0.94666667 0.97333333]
-GaussianProcessClassifier ÀÇ Á¤´ä·ü=
+GaussianProcessClassifier ì˜ ì •ë‹µë¥ =
 [0.94666667 0.96      ]
-GradientBoostingClassifier ÀÇ Á¤´ä·ü=
+GradientBoostingClassifier ì˜ ì •ë‹µë¥ =
 [0.92       0.97333333]
-KNeighborsClassifier ÀÇ Á¤´ä·ü=
+KNeighborsClassifier ì˜ ì •ë‹µë¥ =
 [0.97333333 0.98666667]
-LabelPropagation ÀÇ Á¤´ä·ü=
+LabelPropagation ì˜ ì •ë‹µë¥ =
 [0.97333333 0.96      ]
-LabelSpreading ÀÇ Á¤´ä·ü=
+LabelSpreading ì˜ ì •ë‹µë¥ =
 [0.94666667 0.96      ]
-LinearDiscriminantAnalysis ÀÇ Á¤´ä·ü=
+LinearDiscriminantAnalysis ì˜ ì •ë‹µë¥ =
 [0.98666667 0.96      ]
-LinearSVC ÀÇ Á¤´ä·ü=
+LinearSVC ì˜ ì •ë‹µë¥ =
 [0.86666667 0.96      ]
-LogisticRegression ÀÇ Á¤´ä·ü=
+LogisticRegression ì˜ ì •ë‹µë¥ =
 [0.96       0.93333333]
-LogisticRegressionCV ÀÇ Á¤´ä·ü=
+LogisticRegressionCV ì˜ ì •ë‹µë¥ =
 [0.84 0.92]
-MLPClassifier ÀÇ Á¤´ä·ü=
+MLPClassifier ì˜ ì •ë‹µë¥ =
 [0.97333333 0.96      ]
-MultinomialNB ÀÇ Á¤´ä·ü=
+MultinomialNB ì˜ ì •ë‹µë¥ =
 [0.93333333 0.94666667]
-NearestCentroid ÀÇ Á¤´ä·ü=
+NearestCentroid ì˜ ì •ë‹µë¥ =
 [0.90666667 0.96      ]
-NuSVC ÀÇ Á¤´ä·ü=
+NuSVC ì˜ ì •ë‹µë¥ =
 [0.97333333 0.96      ]
-PassiveAggressiveClassifier ÀÇ Á¤´ä·ü=
+PassiveAggressiveClassifier ì˜ ì •ë‹µë¥ =
 [0.64 0.8 ]
-Perceptron ÀÇ Á¤´ä·ü=
+Perceptron ì˜ ì •ë‹µë¥ =
 [0.52       0.61333333]
-QuadraticDiscriminantAnalysis ÀÇ Á¤´ä·ü=
+QuadraticDiscriminantAnalysis ì˜ ì •ë‹µë¥ =
 [1.         0.94666667]
-RadiusNeighborsClassifier ÀÇ Á¤´ä·ü=
+RadiusNeighborsClassifier ì˜ ì •ë‹µë¥ =
 [0.97333333 0.93333333]
-RandomForestClassifier ÀÇ Á¤´ä·ü=
+RandomForestClassifier ì˜ ì •ë‹µë¥ =
 [0.93333333 0.96      ]
-RidgeClassifier ÀÇ Á¤´ä·ü=
+RidgeClassifier ì˜ ì •ë‹µë¥ =
 [0.81333333 0.82666667]
-RidgeClassifierCV ÀÇ Á¤´ä·ü=
+RidgeClassifierCV ì˜ ì •ë‹µë¥ =
 [0.84 0.84]
-SGDClassifier ÀÇ Á¤´ä·ü=
+SGDClassifier ì˜ ì •ë‹µë¥ =
 [0.68       0.65333333]
-SVC ÀÇ Á¤´ä·ü=
+SVC ì˜ ì •ë‹µë¥ =
 [0.94666667 0.98666667]
 n_split_value: 6
-AdaBoostClassifier ÀÇ Á¤´ä·ü=
+AdaBoostClassifier ì˜ ì •ë‹µë¥ =
 [0.89333333 0.96      ]
-BaggingClassifier ÀÇ Á¤´ä·ü=
+BaggingClassifier ì˜ ì •ë‹µë¥ =
 [0.94666667 0.96      ]
-BernoulliNB ÀÇ Á¤´ä·ü=
+BernoulliNB ì˜ ì •ë‹µë¥ =
 [0.29333333 0.29333333]
-CalibratedClassifierCV ÀÇ Á¤´ä·ü=
+CalibratedClassifierCV ì˜ ì •ë‹µë¥ =
 [0.93333333 0.88      ]
-ComplementNB ÀÇ Á¤´ä·ü=
+ComplementNB ì˜ ì •ë‹µë¥ =
 [0.74666667 0.58666667]
-DecisionTreeClassifier ÀÇ Á¤´ä·ü=
+DecisionTreeClassifier ì˜ ì •ë‹µë¥ =
 [0.93333333 0.94666667]
-ExtraTreeClassifier ÀÇ Á¤´ä·ü=
+ExtraTreeClassifier ì˜ ì •ë‹µë¥ =
 [0.92       0.86666667]
-ExtraTreesClassifier ÀÇ Á¤´ä·ü=
+ExtraTreesClassifier ì˜ ì •ë‹µë¥ =
 [0.92 0.96]
-GaussianNB ÀÇ Á¤´ä·ü=
+GaussianNB ì˜ ì •ë‹µë¥ =
 [0.96       0.94666667]
-GaussianProcessClassifier ÀÇ Á¤´ä·ü=
+GaussianProcessClassifier ì˜ ì •ë‹µë¥ =
 [0.97333333 0.96      ]
-GradientBoostingClassifier ÀÇ Á¤´ä·ü=
+GradientBoostingClassifier ì˜ ì •ë‹µë¥ =
 [0.96 0.96]
-KNeighborsClassifier ÀÇ Á¤´ä·ü=
+KNeighborsClassifier ì˜ ì •ë‹µë¥ =
 [0.93333333 0.96      ]
-LabelPropagation ÀÇ Á¤´ä·ü=
+LabelPropagation ì˜ ì •ë‹µë¥ =
 [0.97333333 0.94666667]
-LabelSpreading ÀÇ Á¤´ä·ü=
+LabelSpreading ì˜ ì •ë‹µë¥ =
 [0.98666667 0.93333333]
-LinearDiscriminantAnalysis ÀÇ Á¤´ä·ü=
+LinearDiscriminantAnalysis ì˜ ì •ë‹µë¥ =
 [0.94666667 0.98666667]
-LinearSVC ÀÇ Á¤´ä·ü=
+LinearSVC ì˜ ì •ë‹µë¥ =
 [0.96       0.93333333]
-LogisticRegression ÀÇ Á¤´ä·ü=
+LogisticRegression ì˜ ì •ë‹µë¥ =
 [0.92 0.96]
-LogisticRegressionCV ÀÇ Á¤´ä·ü=
+LogisticRegressionCV ì˜ ì •ë‹µë¥ =
 [0.96       0.85333333]
-MLPClassifier ÀÇ Á¤´ä·ü=
+MLPClassifier ì˜ ì •ë‹µë¥ =
 [0.98666667 0.88      ]
-MultinomialNB ÀÇ Á¤´ä·ü=
+MultinomialNB ì˜ ì •ë‹µë¥ =
 [0.62666667 0.58666667]
-NearestCentroid ÀÇ Á¤´ä·ü=
+NearestCentroid ì˜ ì •ë‹µë¥ =
 [0.94666667 0.90666667]
-NuSVC ÀÇ Á¤´ä·ü=
+NuSVC ì˜ ì •ë‹µë¥ =
 [0.96       0.93333333]
-PassiveAggressiveClassifier ÀÇ Á¤´ä·ü=
+PassiveAggressiveClassifier ì˜ ì •ë‹µë¥ =
 [0.61333333 0.72      ]
-Perceptron ÀÇ Á¤´ä·ü=
+Perceptron ì˜ ì •ë‹µë¥ =
 [0.78666667 0.73333333]
-QuadraticDiscriminantAnalysis ÀÇ Á¤´ä·ü=
+QuadraticDiscriminantAnalysis ì˜ ì •ë‹µë¥ =
 [0.96 1.  ]
-RadiusNeighborsClassifier ÀÇ Á¤´ä·ü=
+RadiusNeighborsClassifier ì˜ ì •ë‹µë¥ =
 [0.89333333 0.93333333]
-RandomForestClassifier ÀÇ Á¤´ä·ü=
+RandomForestClassifier ì˜ ì •ë‹µë¥ =
 [0.97333333 0.94666667]
-RidgeClassifier ÀÇ Á¤´ä·ü=
+RidgeClassifier ì˜ ì •ë‹µë¥ =
 [0.84       0.77333333]
-RidgeClassifierCV ÀÇ Á¤´ä·ü=
+RidgeClassifierCV ì˜ ì •ë‹µë¥ =
 [0.86666667 0.84      ]
-SGDClassifier ÀÇ Á¤´ä·ü=
+SGDClassifier ì˜ ì •ë‹µë¥ =
 [0.65333333 0.34666667]
-SVC ÀÇ Á¤´ä·ü=
+SVC ì˜ ì •ë‹µë¥ =
 [0.96       0.97333333]
 
 ========================================================================================n_split_value: 9
-AdaBoostClassifier ÀÇ Á¤´ä·ü=
+AdaBoostClassifier ì˜ ì •ë‹µë¥ =
 [0.96       0.86666667]
-BaggingClassifier ÀÇ Á¤´ä·ü=
+BaggingClassifier ì˜ ì •ë‹µë¥ =
 [0.92 0.96]
-BernoulliNB ÀÇ Á¤´ä·ü=
+BernoulliNB ì˜ ì •ë‹µë¥ =
 [0.29333333 0.30666667]
-CalibratedClassifierCV ÀÇ Á¤´ä·ü=
+CalibratedClassifierCV ì˜ ì •ë‹µë¥ =
 [0.93333333 0.89333333]
-ComplementNB ÀÇ Á¤´ä·ü=
+ComplementNB ì˜ ì •ë‹µë¥ =
 [0.76       0.57333333]
-DecisionTreeClassifier ÀÇ Á¤´ä·ü=
+DecisionTreeClassifier ì˜ ì •ë‹µë¥ =
 [0.94666667 0.97333333]
-ExtraTreeClassifier ÀÇ Á¤´ä·ü=
+ExtraTreeClassifier ì˜ ì •ë‹µë¥ =
 [0.96 0.96]
-ExtraTreesClassifier ÀÇ Á¤´ä·ü=
+ExtraTreesClassifier ì˜ ì •ë‹µë¥ =
 [0.97333333 0.94666667]
-GaussianNB ÀÇ Á¤´ä·ü=
+GaussianNB ì˜ ì •ë‹µë¥ =
 [0.96       0.93333333]
-GaussianProcessClassifier ÀÇ Á¤´ä·ü=
+GaussianProcessClassifier ì˜ ì •ë‹µë¥ =
 [0.94666667 0.97333333]
-GradientBoostingClassifier ÀÇ Á¤´ä·ü=
+GradientBoostingClassifier ì˜ ì •ë‹µë¥ =
 [0.94666667 0.96      ]
-KNeighborsClassifier ÀÇ Á¤´ä·ü=
+KNeighborsClassifier ì˜ ì •ë‹µë¥ =
 [0.96 0.96]
-LabelPropagation ÀÇ Á¤´ä·ü=
+LabelPropagation ì˜ ì •ë‹µë¥ =
 [0.97333333 0.94666667]
-LabelSpreading ÀÇ Á¤´ä·ü=
+LabelSpreading ì˜ ì •ë‹µë¥ =
 [0.94666667 0.96      ]
-LinearDiscriminantAnalysis ÀÇ Á¤´ä·ü=
+LinearDiscriminantAnalysis ì˜ ì •ë‹µë¥ =
 [0.98666667 0.97333333]
-LinearSVC ÀÇ Á¤´ä·ü=
+LinearSVC ì˜ ì •ë‹µë¥ =
 [0.93333333 0.97333333]
-LogisticRegression ÀÇ Á¤´ä·ü=
+LogisticRegression ì˜ ì •ë‹µë¥ =
 [0.94666667 0.92      ]
-LogisticRegressionCV ÀÇ Á¤´ä·ü=
+LogisticRegressionCV ì˜ ì •ë‹µë¥ =
 [0.89333333 0.93333333]
-MLPClassifier ÀÇ Á¤´ä·ü=
+MLPClassifier ì˜ ì •ë‹µë¥ =
 [0.97333333 0.97333333]
-MultinomialNB ÀÇ Á¤´ä·ü=
+MultinomialNB ì˜ ì •ë‹µë¥ =
 [0.57333333 0.6       ]
-NearestCentroid ÀÇ Á¤´ä·ü=
+NearestCentroid ì˜ ì •ë‹µë¥ =
 [0.93333333 0.92      ]
-NuSVC ÀÇ Á¤´ä·ü=
+NuSVC ì˜ ì •ë‹µë¥ =
 [0.94666667 0.96      ]
-PassiveAggressiveClassifier ÀÇ Á¤´ä·ü=
+PassiveAggressiveClassifier ì˜ ì •ë‹µë¥ =
 [0.6  0.64]
-Perceptron ÀÇ Á¤´ä·ü=
+Perceptron ì˜ ì •ë‹µë¥ =
 [0.38666667 0.88      ]
-QuadraticDiscriminantAnalysis ÀÇ Á¤´ä·ü=
+QuadraticDiscriminantAnalysis ì˜ ì •ë‹µë¥ =
 [0.96       0.97333333]
-RadiusNeighborsClassifier ÀÇ Á¤´ä·ü=
+RadiusNeighborsClassifier ì˜ ì •ë‹µë¥ =
 [0.93333333 0.98666667]
-RandomForestClassifier ÀÇ Á¤´ä·ü=
+RandomForestClassifier ì˜ ì •ë‹µë¥ =
 [0.94666667 0.94666667]
-RidgeClassifier ÀÇ Á¤´ä·ü=
+RidgeClassifier ì˜ ì •ë‹µë¥ =
 [0.81333333 0.82666667]
-RidgeClassifierCV ÀÇ Á¤´ä·ü=
+RidgeClassifierCV ì˜ ì •ë‹µë¥ =
 [0.82666667 0.85333333]
-SGDClassifier ÀÇ Á¤´ä·ü=
+SGDClassifier ì˜ ì •ë‹µë¥ =
 [0.72       0.65333333]
-SVC ÀÇ Á¤´ä·ü=
+SVC ì˜ ì •ë‹µë¥ =
 [1.   0.92]
 n_split_value: 9
-AdaBoostClassifier ÀÇ Á¤´ä·ü=
+AdaBoostClassifier ì˜ ì •ë‹µë¥ =
 [0.93333333 0.96      ]
-BaggingClassifier ÀÇ Á¤´ä·ü=
+BaggingClassifier ì˜ ì •ë‹µë¥ =
 [0.96 0.96]
-BernoulliNB ÀÇ Á¤´ä·ü=
+BernoulliNB ì˜ ì •ë‹µë¥ =
 [0.28 0.28]
-CalibratedClassifierCV ÀÇ Á¤´ä·ü=
+CalibratedClassifierCV ì˜ ì •ë‹µë¥ =
 [0.90666667 0.89333333]
-ComplementNB ÀÇ Á¤´ä·ü=
+ComplementNB ì˜ ì •ë‹µë¥ =
 [0.66666667 0.66666667]
-DecisionTreeClassifier ÀÇ Á¤´ä·ü=
+DecisionTreeClassifier ì˜ ì •ë‹µë¥ =
 [0.92       0.94666667]
-ExtraTreeClassifier ÀÇ Á¤´ä·ü=
+ExtraTreeClassifier ì˜ ì •ë‹µë¥ =
 [0.94666667 0.93333333]
-ExtraTreesClassifier ÀÇ Á¤´ä·ü=
+ExtraTreesClassifier ì˜ ì •ë‹µë¥ =
 [0.96       0.94666667]
-GaussianNB ÀÇ Á¤´ä·ü=
+GaussianNB ì˜ ì •ë‹µë¥ =
 [0.97333333 0.94666667]
-GaussianProcessClassifier ÀÇ Á¤´ä·ü=
+GaussianProcessClassifier ì˜ ì •ë‹µë¥ =
 [0.98666667 0.92      ]
-GradientBoostingClassifier ÀÇ Á¤´ä·ü=
+GradientBoostingClassifier ì˜ ì •ë‹µë¥ =
 [0.94666667 0.98666667]
-KNeighborsClassifier ÀÇ Á¤´ä·ü=
+KNeighborsClassifier ì˜ ì •ë‹µë¥ =
 [0.94666667 0.93333333]
-LabelPropagation ÀÇ Á¤´ä·ü=
+LabelPropagation ì˜ ì •ë‹µë¥ =
 [0.96 0.96]
-LabelSpreading ÀÇ Á¤´ä·ü=
+LabelSpreading ì˜ ì •ë‹µë¥ =
 [0.92       0.94666667]
-LinearDiscriminantAnalysis ÀÇ Á¤´ä·ü=
+LinearDiscriminantAnalysis ì˜ ì •ë‹µë¥ =
 [0.97333333 0.97333333]
-LinearSVC ÀÇ Á¤´ä·ü=
+LinearSVC ì˜ ì •ë‹µë¥ =
 [0.97333333 0.96      ]
-LogisticRegression ÀÇ Á¤´ä·ü=
+LogisticRegression ì˜ ì •ë‹µë¥ =
 [0.92       0.89333333]
-LogisticRegressionCV ÀÇ Á¤´ä·ü=
+LogisticRegressionCV ì˜ ì •ë‹µë¥ =
 [0.88       0.89333333]
-MLPClassifier ÀÇ Á¤´ä·ü=
+MLPClassifier ì˜ ì •ë‹µë¥ =
 [0.97333333 0.94666667]
-MultinomialNB ÀÇ Á¤´ä·ü=
+MultinomialNB ì˜ ì •ë‹µë¥ =
 [0.97333333 0.93333333]
-NearestCentroid ÀÇ Á¤´ä·ü=
+NearestCentroid ì˜ ì •ë‹µë¥ =
 [0.90666667 0.96      ]
-NuSVC ÀÇ Á¤´ä·ü=
+NuSVC ì˜ ì •ë‹µë¥ =
 [0.93333333 0.96      ]
-PassiveAggressiveClassifier ÀÇ Á¤´ä·ü=
+PassiveAggressiveClassifier ì˜ ì •ë‹µë¥ =
 [0.61333333 0.65333333]
-Perceptron ÀÇ Á¤´ä·ü=
+Perceptron ì˜ ì •ë‹µë¥ =
 [0.48       0.38666667]
-QuadraticDiscriminantAnalysis ÀÇ Á¤´ä·ü=
+QuadraticDiscriminantAnalysis ì˜ ì •ë‹µë¥ =
 [0.97333333 0.98666667]
-RadiusNeighborsClassifier ÀÇ Á¤´ä·ü=
+RadiusNeighborsClassifier ì˜ ì •ë‹µë¥ =
 [0.96 0.96]
-RandomForestClassifier ÀÇ Á¤´ä·ü=
+RandomForestClassifier ì˜ ì •ë‹µë¥ =
 [0.93333333 0.97333333]
-RidgeClassifier ÀÇ Á¤´ä·ü=
+RidgeClassifier ì˜ ì •ë‹µë¥ =
 [0.88       0.78666667]
-RidgeClassifierCV ÀÇ Á¤´ä·ü=
+RidgeClassifierCV ì˜ ì •ë‹µë¥ =
 [0.85333333 0.76      ]
-SGDClassifier ÀÇ Á¤´ä·ü=
+SGDClassifier ì˜ ì •ë‹µë¥ =
 [0.58666667 0.6       ]
-SVC ÀÇ Á¤´ä·ü=
+SVC ì˜ ì •ë‹µë¥ =
 [0.94666667 0.92      ]
 n_split_value: 9
-AdaBoostClassifier ÀÇ Á¤´ä·ü=
+AdaBoostClassifier ì˜ ì •ë‹µë¥ =
 [0.96 0.96]
-BaggingClassifier ÀÇ Á¤´ä·ü=
+BaggingClassifier ì˜ ì •ë‹µë¥ =
 [0.96       0.94666667]
-BernoulliNB ÀÇ Á¤´ä·ü=
+BernoulliNB ì˜ ì •ë‹µë¥ =
 [0.33333333 0.33333333]
-CalibratedClassifierCV ÀÇ Á¤´ä·ü=
+CalibratedClassifierCV ì˜ ì •ë‹µë¥ =
 [0.76       0.89333333]
-ComplementNB ÀÇ Á¤´ä·ü=
+ComplementNB ì˜ ì •ë‹µë¥ =
 [0.65333333 0.68      ]
-DecisionTreeClassifier ÀÇ Á¤´ä·ü=
+DecisionTreeClassifier ì˜ ì •ë‹µë¥ =
 [0.96 0.92]
-ExtraTreeClassifier ÀÇ Á¤´ä·ü=
+ExtraTreeClassifier ì˜ ì •ë‹µë¥ =
 [0.90666667 0.92      ]
-ExtraTreesClassifier ÀÇ Á¤´ä·ü=
+ExtraTreesClassifier ì˜ ì •ë‹µë¥ =
 [0.94666667 0.97333333]
-GaussianNB ÀÇ Á¤´ä·ü=
+GaussianNB ì˜ ì •ë‹µë¥ =
 [0.98666667 0.93333333]
-GaussianProcessClassifier ÀÇ Á¤´ä·ü=
+GaussianProcessClassifier ì˜ ì •ë‹µë¥ =
 [0.94666667 0.97333333]
-GradientBoostingClassifier ÀÇ Á¤´ä·ü=
+GradientBoostingClassifier ì˜ ì •ë‹µë¥ =
 [0.97333333 0.92      ]
-KNeighborsClassifier ÀÇ Á¤´ä·ü=
+KNeighborsClassifier ì˜ ì •ë‹µë¥ =
 [0.93333333 0.94666667]
-LabelPropagation ÀÇ Á¤´ä·ü=
+LabelPropagation ì˜ ì •ë‹µë¥ =
 [0.94666667 0.93333333]
-LabelSpreading ÀÇ Á¤´ä·ü=
+LabelSpreading ì˜ ì •ë‹µë¥ =
 [0.93333333 1.        ]
-LinearDiscriminantAnalysis ÀÇ Á¤´ä·ü=
+LinearDiscriminantAnalysis ì˜ ì •ë‹µë¥ =
 [0.97333333 0.98666667]
-LinearSVC ÀÇ Á¤´ä·ü=
+LinearSVC ì˜ ì •ë‹µë¥ =
 [0.96       0.94666667]
-LogisticRegression ÀÇ Á¤´ä·ü=
+LogisticRegression ì˜ ì •ë‹µë¥ =
 [0.96       0.94666667]
-LogisticRegressionCV ÀÇ Á¤´ä·ü=
+LogisticRegressionCV ì˜ ì •ë‹µë¥ =
 [0.96       0.93333333]
-MLPClassifier ÀÇ Á¤´ä·ü=
+MLPClassifier ì˜ ì •ë‹µë¥ =
 [1.         0.93333333]
-MultinomialNB ÀÇ Á¤´ä·ü=
+MultinomialNB ì˜ ì •ë‹µë¥ =
 [0.94666667 0.93333333]
-NearestCentroid ÀÇ Á¤´ä·ü=
+NearestCentroid ì˜ ì •ë‹µë¥ =
 [0.90666667 0.94666667]
-NuSVC ÀÇ Á¤´ä·ü=
+NuSVC ì˜ ì •ë‹µë¥ =
 [0.96       0.97333333]
-PassiveAggressiveClassifier ÀÇ Á¤´ä·ü=
+PassiveAggressiveClassifier ì˜ ì •ë‹µë¥ =
 [0.72       0.65333333]
-Perceptron ÀÇ Á¤´ä·ü=
+Perceptron ì˜ ì •ë‹µë¥ =
 [0.28       0.78666667]
-QuadraticDiscriminantAnalysis ÀÇ Á¤´ä·ü=
+QuadraticDiscriminantAnalysis ì˜ ì •ë‹µë¥ =
 [0.94666667 0.94666667]
-RadiusNeighborsClassifier ÀÇ Á¤´ä·ü=
+RadiusNeighborsClassifier ì˜ ì •ë‹µë¥ =
 [0.98666667 0.96      ]
-RandomForestClassifier ÀÇ Á¤´ä·ü=
+RandomForestClassifier ì˜ ì •ë‹µë¥ =
 [0.96 0.96]
-RidgeClassifier ÀÇ Á¤´ä·ü=
+RidgeClassifier ì˜ ì •ë‹µë¥ =
 [0.84       0.77333333]
-RidgeClassifierCV ÀÇ Á¤´ä·ü=
+RidgeClassifierCV ì˜ ì •ë‹µë¥ =
 [0.82666667 0.81333333]
-SGDClassifier ÀÇ Á¤´ä·ü=
+SGDClassifier ì˜ ì •ë‹µë¥ =
 [0.8        0.62666667]
-SVC ÀÇ Á¤´ä·ü=
+SVC ì˜ ì •ë‹µë¥ =
 [0.96       0.97333333]
 n_split_value: 9
-AdaBoostClassifier ÀÇ Á¤´ä·ü=
+AdaBoostClassifier ì˜ ì •ë‹µë¥ =
 [0.93333333 0.96      ]
-BaggingClassifier ÀÇ Á¤´ä·ü=
+BaggingClassifier ì˜ ì •ë‹µë¥ =
 [0.93333333 0.92      ]
-BernoulliNB ÀÇ Á¤´ä·ü=
+BernoulliNB ì˜ ì •ë‹µë¥ =
 [0.32 0.32]
-CalibratedClassifierCV ÀÇ Á¤´ä·ü=
+CalibratedClassifierCV ì˜ ì •ë‹µë¥ =
 [0.86666667 0.93333333]
-ComplementNB ÀÇ Á¤´ä·ü=
+ComplementNB ì˜ ì •ë‹µë¥ =
 [0.70666667 0.62666667]
-DecisionTreeClassifier ÀÇ Á¤´ä·ü=
+DecisionTreeClassifier ì˜ ì •ë‹µë¥ =
 [0.94666667 0.90666667]
-ExtraTreeClassifier ÀÇ Á¤´ä·ü=
+ExtraTreeClassifier ì˜ ì •ë‹µë¥ =
 [0.94666667 0.88      ]
-ExtraTreesClassifier ÀÇ Á¤´ä·ü=
+ExtraTreesClassifier ì˜ ì •ë‹µë¥ =
 [0.94666667 0.94666667]
-GaussianNB ÀÇ Á¤´ä·ü=
+GaussianNB ì˜ ì •ë‹µë¥ =
 [0.93333333 0.97333333]
-GaussianProcessClassifier ÀÇ Á¤´ä·ü=
+GaussianProcessClassifier ì˜ ì •ë‹µë¥ =
 [0.96       0.94666667]
-GradientBoostingClassifier ÀÇ Á¤´ä·ü=
+GradientBoostingClassifier ì˜ ì •ë‹µë¥ =
 [0.93333333 0.96      ]
-KNeighborsClassifier ÀÇ Á¤´ä·ü=
+KNeighborsClassifier ì˜ ì •ë‹µë¥ =
 [0.94666667 0.97333333]
-LabelPropagation ÀÇ Á¤´ä·ü=
+LabelPropagation ì˜ ì •ë‹µë¥ =
 [0.97333333 0.96      ]
-LabelSpreading ÀÇ Á¤´ä·ü=
+LabelSpreading ì˜ ì •ë‹µë¥ =
 [0.94666667 0.94666667]
-LinearDiscriminantAnalysis ÀÇ Á¤´ä·ü=
+LinearDiscriminantAnalysis ì˜ ì •ë‹µë¥ =
 [0.98666667 0.97333333]
-LinearSVC ÀÇ Á¤´ä·ü=
+LinearSVC ì˜ ì •ë‹µë¥ =
 [0.96       0.94666667]
-LogisticRegression ÀÇ Á¤´ä·ü=
+LogisticRegression ì˜ ì •ë‹µë¥ =
 [0.89333333 0.94666667]
-LogisticRegressionCV ÀÇ Á¤´ä·ü=
+LogisticRegressionCV ì˜ ì •ë‹µë¥ =
 [0.93333333 0.84      ]
-MLPClassifier ÀÇ Á¤´ä·ü=
+MLPClassifier ì˜ ì •ë‹µë¥ =
 [0.97333333 0.97333333]
-MultinomialNB ÀÇ Á¤´ä·ü=
+MultinomialNB ì˜ ì •ë‹µë¥ =
 [0.68 0.72]
-NearestCentroid ÀÇ Á¤´ä·ü=
+NearestCentroid ì˜ ì •ë‹µë¥ =
 [0.86666667 0.96      ]
-NuSVC ÀÇ Á¤´ä·ü=
+NuSVC ì˜ ì •ë‹µë¥ =
 [0.93333333 0.97333333]
-PassiveAggressiveClassifier ÀÇ Á¤´ä·ü=
+PassiveAggressiveClassifier ì˜ ì •ë‹µë¥ =
 [0.68       0.66666667]
-Perceptron ÀÇ Á¤´ä·ü=
+Perceptron ì˜ ì •ë‹µë¥ =
 [0.37333333 0.94666667]
-QuadraticDiscriminantAnalysis ÀÇ Á¤´ä·ü=
+QuadraticDiscriminantAnalysis ì˜ ì •ë‹µë¥ =
 [0.98666667 0.94666667]
-RadiusNeighborsClassifier ÀÇ Á¤´ä·ü=
+RadiusNeighborsClassifier ì˜ ì •ë‹µë¥ =
 [0.96       0.97333333]
-RandomForestClassifier ÀÇ Á¤´ä·ü=
+RandomForestClassifier ì˜ ì •ë‹µë¥ =
 [0.97333333 0.90666667]
-RidgeClassifier ÀÇ Á¤´ä·ü=
+RidgeClassifier ì˜ ì •ë‹µë¥ =
 [0.84       0.82666667]
-RidgeClassifierCV ÀÇ Á¤´ä·ü=
+RidgeClassifierCV ì˜ ì •ë‹µë¥ =
 [0.85333333 0.85333333]
-SGDClassifier ÀÇ Á¤´ä·ü=
+SGDClassifier ì˜ ì •ë‹µë¥ =
 [0.78666667 0.62666667]
-SVC ÀÇ Á¤´ä·ü=
+SVC ì˜ ì •ë‹µë¥ =
 [0.93333333 0.97333333]
 n_split_value: 9
-AdaBoostClassifier ÀÇ Á¤´ä·ü=
+AdaBoostClassifier ì˜ ì •ë‹µë¥ =
 [0.94666667 0.94666667]
-BaggingClassifier ÀÇ Á¤´ä·ü=
+BaggingClassifier ì˜ ì •ë‹µë¥ =
 [0.93333333 0.97333333]
-BernoulliNB ÀÇ Á¤´ä·ü=
+BernoulliNB ì˜ ì •ë‹µë¥ =
 [0.29333333 0.26666667]
-CalibratedClassifierCV ÀÇ Á¤´ä·ü=
+CalibratedClassifierCV ì˜ ì •ë‹µë¥ =
 [0.88 0.88]
-ComplementNB ÀÇ Á¤´ä·ü=
+ComplementNB ì˜ ì •ë‹µë¥ =
 [0.64       0.69333333]
-DecisionTreeClassifier ÀÇ Á¤´ä·ü=
+DecisionTreeClassifier ì˜ ì •ë‹µë¥ =
 [0.94666667 0.93333333]
-ExtraTreeClassifier ÀÇ Á¤´ä·ü=
+ExtraTreeClassifier ì˜ ì •ë‹µë¥ =
 [0.90666667 0.89333333]
-ExtraTreesClassifier ÀÇ Á¤´ä·ü=
+ExtraTreesClassifier ì˜ ì •ë‹µë¥ =
 [0.92       0.94666667]
-GaussianNB ÀÇ Á¤´ä·ü=
+GaussianNB ì˜ ì •ë‹µë¥ =
 [0.97333333 0.93333333]
-GaussianProcessClassifier ÀÇ Á¤´ä·ü=
+GaussianProcessClassifier ì˜ ì •ë‹µë¥ =
 [0.98666667 0.93333333]
-GradientBoostingClassifier ÀÇ Á¤´ä·ü=
+GradientBoostingClassifier ì˜ ì •ë‹µë¥ =
 [0.98666667 0.90666667]
-KNeighborsClassifier ÀÇ Á¤´ä·ü=
+KNeighborsClassifier ì˜ ì •ë‹µë¥ =
 [0.94666667 0.97333333]
-LabelPropagation ÀÇ Á¤´ä·ü=
+LabelPropagation ì˜ ì •ë‹µë¥ =
 [0.96       0.90666667]
-LabelSpreading ÀÇ Á¤´ä·ü=
+LabelSpreading ì˜ ì •ë‹µë¥ =
 [0.94666667 0.97333333]
-LinearDiscriminantAnalysis ÀÇ Á¤´ä·ü=
+LinearDiscriminantAnalysis ì˜ ì •ë‹µë¥ =
 [0.97333333 0.96      ]
-LinearSVC ÀÇ Á¤´ä·ü=
+LinearSVC ì˜ ì •ë‹µë¥ =
 [0.90666667 0.97333333]
-LogisticRegression ÀÇ Á¤´ä·ü=
+LogisticRegression ì˜ ì •ë‹µë¥ =
 [0.97333333 0.90666667]
-LogisticRegressionCV ÀÇ Á¤´ä·ü=
+LogisticRegressionCV ì˜ ì •ë‹µë¥ =
 [0.94666667 0.85333333]
-MLPClassifier ÀÇ Á¤´ä·ü=
+MLPClassifier ì˜ ì •ë‹µë¥ =
 [0.96       0.97333333]
-MultinomialNB ÀÇ Á¤´ä·ü=
+MultinomialNB ì˜ ì •ë‹µë¥ =
 [0.6        0.74666667]
-NearestCentroid ÀÇ Á¤´ä·ü=
+NearestCentroid ì˜ ì •ë‹µë¥ =
 [0.89333333 0.96      ]
-NuSVC ÀÇ Á¤´ä·ü=
+NuSVC ì˜ ì •ë‹µë¥ =
 [0.92       0.94666667]
-PassiveAggressiveClassifier ÀÇ Á¤´ä·ü=
+PassiveAggressiveClassifier ì˜ ì •ë‹µë¥ =
 [0.66666667 0.65333333]
-Perceptron ÀÇ Á¤´ä·ü=
+Perceptron ì˜ ì •ë‹µë¥ =
 [0.64       0.94666667]
-QuadraticDiscriminantAnalysis ÀÇ Á¤´ä·ü=
+QuadraticDiscriminantAnalysis ì˜ ì •ë‹µë¥ =
 [0.97333333 0.98666667]
-RadiusNeighborsClassifier ÀÇ Á¤´ä·ü=
+RadiusNeighborsClassifier ì˜ ì •ë‹µë¥ =
 [0.93333333 0.97333333]
-RandomForestClassifier ÀÇ Á¤´ä·ü=
+RandomForestClassifier ì˜ ì •ë‹µë¥ =
 [0.93333333 0.97333333]
-RidgeClassifier ÀÇ Á¤´ä·ü=
+RidgeClassifier ì˜ ì •ë‹µë¥ =
 [0.85333333 0.86666667]
-RidgeClassifierCV ÀÇ Á¤´ä·ü=
+RidgeClassifierCV ì˜ ì •ë‹µë¥ =
 [0.82666667 0.81333333]
-SGDClassifier ÀÇ Á¤´ä·ü=
+SGDClassifier ì˜ ì •ë‹µë¥ =
 [0.58666667 0.68      ]
-SVC ÀÇ Á¤´ä·ü=
+SVC ì˜ ì •ë‹µë¥ =
 [0.94666667 0.97333333]
 n_split_value: 9
-AdaBoostClassifier ÀÇ Á¤´ä·ü=
+AdaBoostClassifier ì˜ ì •ë‹µë¥ =
 [0.97333333 0.94666667]
-BaggingClassifier ÀÇ Á¤´ä·ü=
+BaggingClassifier ì˜ ì •ë‹µë¥ =
 [0.90666667 0.97333333]
-BernoulliNB ÀÇ Á¤´ä·ü=
+BernoulliNB ì˜ ì •ë‹µë¥ =
 [0.28       0.29333333]
-CalibratedClassifierCV ÀÇ Á¤´ä·ü=
+CalibratedClassifierCV ì˜ ì •ë‹µë¥ =
 [0.90666667 0.92      ]
-ComplementNB ÀÇ Á¤´ä·ü=
+ComplementNB ì˜ ì •ë‹µë¥ =
 [0.70666667 0.62666667]
-DecisionTreeClassifier ÀÇ Á¤´ä·ü=
+DecisionTreeClassifier ì˜ ì •ë‹µë¥ =
 [0.94666667 0.94666667]
-ExtraTreeClassifier ÀÇ Á¤´ä·ü=
+ExtraTreeClassifier ì˜ ì •ë‹µë¥ =
 [0.90666667 0.92      ]
-ExtraTreesClassifier ÀÇ Á¤´ä·ü=
+ExtraTreesClassifier ì˜ ì •ë‹µë¥ =
 [0.93333333 0.97333333]
-GaussianNB ÀÇ Á¤´ä·ü=
+GaussianNB ì˜ ì •ë‹µë¥ =
 [0.96 0.96]
-GaussianProcessClassifier ÀÇ Á¤´ä·ü=
+GaussianProcessClassifier ì˜ ì •ë‹µë¥ =
 [0.96 0.96]
-GradientBoostingClassifier ÀÇ Á¤´ä·ü=
+GradientBoostingClassifier ì˜ ì •ë‹µë¥ =
 [0.94666667 0.97333333]
-KNeighborsClassifier ÀÇ Á¤´ä·ü=
+KNeighborsClassifier ì˜ ì •ë‹µë¥ =
 [0.97333333 0.98666667]
-LabelPropagation ÀÇ Á¤´ä·ü=
+LabelPropagation ì˜ ì •ë‹µë¥ =
 [0.96 0.92]
-LabelSpreading ÀÇ Á¤´ä·ü=
+LabelSpreading ì˜ ì •ë‹µë¥ =
 [0.96       0.93333333]
-LinearDiscriminantAnalysis ÀÇ Á¤´ä·ü=
+LinearDiscriminantAnalysis ì˜ ì •ë‹µë¥ =
 [0.96 1.  ]
-LinearSVC ÀÇ Á¤´ä·ü=
+LinearSVC ì˜ ì •ë‹µë¥ =
 [0.97333333 0.94666667]
-LogisticRegression ÀÇ Á¤´ä·ü=
+LogisticRegression ì˜ ì •ë‹µë¥ =
 [0.89333333 0.96      ]
-LogisticRegressionCV ÀÇ Á¤´ä·ü=
+LogisticRegressionCV ì˜ ì •ë‹µë¥ =
 [0.93333333 0.93333333]
-MLPClassifier ÀÇ Á¤´ä·ü=
+MLPClassifier ì˜ ì •ë‹µë¥ =
 [0.97333333 0.96      ]
-MultinomialNB ÀÇ Á¤´ä·ü=
+MultinomialNB ì˜ ì •ë‹µë¥ =
 [0.76       0.66666667]
-NearestCentroid ÀÇ Á¤´ä·ü=
+NearestCentroid ì˜ ì •ë‹µë¥ =
 [0.96       0.90666667]
-NuSVC ÀÇ Á¤´ä·ü=
+NuSVC ì˜ ì •ë‹µë¥ =
 [0.97333333 0.96      ]
-PassiveAggressiveClassifier ÀÇ Á¤´ä·ü=
+PassiveAggressiveClassifier ì˜ ì •ë‹µë¥ =
 [0.89333333 0.72      ]
-Perceptron ÀÇ Á¤´ä·ü=
+Perceptron ì˜ ì •ë‹µë¥ =
 [0.58666667 0.44      ]
-QuadraticDiscriminantAnalysis ÀÇ Á¤´ä·ü=
+QuadraticDiscriminantAnalysis ì˜ ì •ë‹µë¥ =
 [1.   0.96]
-RadiusNeighborsClassifier ÀÇ Á¤´ä·ü=
+RadiusNeighborsClassifier ì˜ ì •ë‹µë¥ =
 [0.96       0.94666667]
-RandomForestClassifier ÀÇ Á¤´ä·ü=
+RandomForestClassifier ì˜ ì •ë‹µë¥ =
 [0.94666667 0.97333333]
-RidgeClassifier ÀÇ Á¤´ä·ü=
+RidgeClassifier ì˜ ì •ë‹µë¥ =
 [0.78666667 0.85333333]
-RidgeClassifierCV ÀÇ Á¤´ä·ü=
+RidgeClassifierCV ì˜ ì •ë‹µë¥ =
 [0.84       0.81333333]
-SGDClassifier ÀÇ Á¤´ä·ü=
+SGDClassifier ì˜ ì •ë‹µë¥ =
 [0.61333333 0.8       ]
-SVC ÀÇ Á¤´ä·ü=
+SVC ì˜ ì •ë‹µë¥ =
 [0.98666667 0.96      ]
 n_split_value: 9
-AdaBoostClassifier ÀÇ Á¤´ä·ü=
+AdaBoostClassifier ì˜ ì •ë‹µë¥ =
 [0.94666667 0.94666667]
-BaggingClassifier ÀÇ Á¤´ä·ü=
+BaggingClassifier ì˜ ì •ë‹µë¥ =
 [0.97333333 0.96      ]
-BernoulliNB ÀÇ Á¤´ä·ü=
+BernoulliNB ì˜ ì •ë‹µë¥ =
 [0.33333333 0.33333333]
-CalibratedClassifierCV ÀÇ Á¤´ä·ü=
+CalibratedClassifierCV ì˜ ì •ë‹µë¥ =
 [0.82666667 0.93333333]
-ComplementNB ÀÇ Á¤´ä·ü=
+ComplementNB ì˜ ì •ë‹µë¥ =
 [0.68       0.65333333]
-DecisionTreeClassifier ÀÇ Á¤´ä·ü=
+DecisionTreeClassifier ì˜ ì •ë‹µë¥ =
 [0.97333333 0.94666667]
-ExtraTreeClassifier ÀÇ Á¤´ä·ü=
+ExtraTreeClassifier ì˜ ì •ë‹µë¥ =
 [0.94666667 0.93333333]
-ExtraTreesClassifier ÀÇ Á¤´ä·ü=
+ExtraTreesClassifier ì˜ ì •ë‹µë¥ =
 [0.94666667 0.96      ]
-GaussianNB ÀÇ Á¤´ä·ü=
+GaussianNB ì˜ ì •ë‹µë¥ =
 [0.94666667 0.98666667]
-GaussianProcessClassifier ÀÇ Á¤´ä·ü=
+GaussianProcessClassifier ì˜ ì •ë‹µë¥ =
 [0.94666667 0.98666667]
-GradientBoostingClassifier ÀÇ Á¤´ä·ü=
+GradientBoostingClassifier ì˜ ì •ë‹µë¥ =
 [0.96 0.96]
-KNeighborsClassifier ÀÇ Á¤´ä·ü=
+KNeighborsClassifier ì˜ ì •ë‹µë¥ =
 [0.97333333 0.97333333]
-LabelPropagation ÀÇ Á¤´ä·ü=
+LabelPropagation ì˜ ì •ë‹µë¥ =
 [0.97333333 0.94666667]
-LabelSpreading ÀÇ Á¤´ä·ü=
+LabelSpreading ì˜ ì •ë‹µë¥ =
 [0.93333333 0.94666667]
-LinearDiscriminantAnalysis ÀÇ Á¤´ä·ü=
+LinearDiscriminantAnalysis ì˜ ì •ë‹µë¥ =
 [0.96       0.97333333]
-LinearSVC ÀÇ Á¤´ä·ü=
+LinearSVC ì˜ ì •ë‹µë¥ =
 [0.96 0.96]
-LogisticRegression ÀÇ Á¤´ä·ü=
+LogisticRegression ì˜ ì •ë‹µë¥ =
 [0.96       0.94666667]
-LogisticRegressionCV ÀÇ Á¤´ä·ü=
+LogisticRegressionCV ì˜ ì •ë‹µë¥ =
 [0.96       0.93333333]
-MLPClassifier ÀÇ Á¤´ä·ü=
+MLPClassifier ì˜ ì •ë‹µë¥ =
 [1.   0.96]
-MultinomialNB ÀÇ Á¤´ä·ü=
+MultinomialNB ì˜ ì •ë‹µë¥ =
 [0.61333333 0.62666667]
-NearestCentroid ÀÇ Á¤´ä·ü=
+NearestCentroid ì˜ ì •ë‹µë¥ =
 [0.89333333 0.96      ]
-NuSVC ÀÇ Á¤´ä·ü=
+NuSVC ì˜ ì •ë‹µë¥ =
 [0.94666667 0.90666667]
-PassiveAggressiveClassifier ÀÇ Á¤´ä·ü=
+PassiveAggressiveClassifier ì˜ ì •ë‹µë¥ =
 [0.66666667 0.69333333]
-Perceptron ÀÇ Á¤´ä·ü=
+Perceptron ì˜ ì •ë‹µë¥ =
 [0.36       0.73333333]
-QuadraticDiscriminantAnalysis ÀÇ Á¤´ä·ü=
+QuadraticDiscriminantAnalysis ì˜ ì •ë‹µë¥ =
 [0.96       0.98666667]
-RadiusNeighborsClassifier ÀÇ Á¤´ä·ü=
+RadiusNeighborsClassifier ì˜ ì •ë‹µë¥ =
 [0.94666667 0.97333333]
-RandomForestClassifier ÀÇ Á¤´ä·ü=
+RandomForestClassifier ì˜ ì •ë‹µë¥ =
 [0.93333333 0.94666667]
-RidgeClassifier ÀÇ Á¤´ä·ü=
+RidgeClassifier ì˜ ì •ë‹µë¥ =
 [0.73333333 0.78666667]
-RidgeClassifierCV ÀÇ Á¤´ä·ü=
+RidgeClassifierCV ì˜ ì •ë‹µë¥ =
 [0.81333333 0.85333333]
-SGDClassifier ÀÇ Á¤´ä·ü=
+SGDClassifier ì˜ ì •ë‹µë¥ =
 [0.26666667 0.57333333]
-SVC ÀÇ Á¤´ä·ü=
+SVC ì˜ ì •ë‹µë¥ =
 [0.97333333 0.93333333]
 n_split_value: 9
-AdaBoostClassifier ÀÇ Á¤´ä·ü=
+AdaBoostClassifier ì˜ ì •ë‹µë¥ =
 [0.94666667 0.94666667]
-BaggingClassifier ÀÇ Á¤´ä·ü=
+BaggingClassifier ì˜ ì •ë‹µë¥ =
 [0.94666667 0.93333333]
-BernoulliNB ÀÇ Á¤´ä·ü=
+BernoulliNB ì˜ ì •ë‹µë¥ =
 [0.29333333 0.30666667]
-CalibratedClassifierCV ÀÇ Á¤´ä·ü=
+CalibratedClassifierCV ì˜ ì •ë‹µë¥ =
 [0.97333333 0.81333333]
-ComplementNB ÀÇ Á¤´ä·ü=
+ComplementNB ì˜ ì •ë‹µë¥ =
 [0.70666667 0.62666667]
-DecisionTreeClassifier ÀÇ Á¤´ä·ü=
+DecisionTreeClassifier ì˜ ì •ë‹µë¥ =
 [0.97333333 0.94666667]
-ExtraTreeClassifier ÀÇ Á¤´ä·ü=
+ExtraTreeClassifier ì˜ ì •ë‹µë¥ =
 [0.90666667 0.93333333]
-ExtraTreesClassifier ÀÇ Á¤´ä·ü=
+ExtraTreesClassifier ì˜ ì •ë‹µë¥ =
 [0.97333333 0.93333333]
-GaussianNB ÀÇ Á¤´ä·ü=
+GaussianNB ì˜ ì •ë‹µë¥ =
 [0.94666667 0.97333333]
-GaussianProcessClassifier ÀÇ Á¤´ä·ü=
+GaussianProcessClassifier ì˜ ì •ë‹µë¥ =
 [0.96       0.93333333]
-GradientBoostingClassifier ÀÇ Á¤´ä·ü=
+GradientBoostingClassifier ì˜ ì •ë‹µë¥ =
 [0.90666667 0.94666667]
-KNeighborsClassifier ÀÇ Á¤´ä·ü=
+KNeighborsClassifier ì˜ ì •ë‹µë¥ =
 [0.97333333 0.96      ]
-LabelPropagation ÀÇ Á¤´ä·ü=
+LabelPropagation ì˜ ì •ë‹µë¥ =
 [0.94666667 0.97333333]
-LabelSpreading ÀÇ Á¤´ä·ü=
+LabelSpreading ì˜ ì •ë‹µë¥ =
 [0.96       0.97333333]
-LinearDiscriminantAnalysis ÀÇ Á¤´ä·ü=
+LinearDiscriminantAnalysis ì˜ ì •ë‹µë¥ =
 [0.98666667 0.97333333]
-LinearSVC ÀÇ Á¤´ä·ü=
+LinearSVC ì˜ ì •ë‹µë¥ =
 [0.98666667 0.88      ]
-LogisticRegression ÀÇ Á¤´ä·ü=
+LogisticRegression ì˜ ì •ë‹µë¥ =
 [0.94666667 0.92      ]
-LogisticRegressionCV ÀÇ Á¤´ä·ü=
+LogisticRegressionCV ì˜ ì •ë‹µë¥ =
 [0.93333333 0.85333333]
-MLPClassifier ÀÇ Á¤´ä·ü=
+MLPClassifier ì˜ ì •ë‹µë¥ =
 [0.97333333 0.97333333]
-MultinomialNB ÀÇ Á¤´ä·ü=
+MultinomialNB ì˜ ì •ë‹µë¥ =
 [0.98666667 0.92      ]
-NearestCentroid ÀÇ Á¤´ä·ü=
+NearestCentroid ì˜ ì •ë‹µë¥ =
 [0.89333333 0.94666667]
-NuSVC ÀÇ Á¤´ä·ü=
+NuSVC ì˜ ì •ë‹µë¥ =
 [0.96       0.98666667]
-PassiveAggressiveClassifier ÀÇ Á¤´ä·ü=
+PassiveAggressiveClassifier ì˜ ì •ë‹µë¥ =
 [0.88       0.65333333]
-Perceptron ÀÇ Á¤´ä·ü=
+Perceptron ì˜ ì •ë‹µë¥ =
 [0.34666667 0.34666667]
-QuadraticDiscriminantAnalysis ÀÇ Á¤´ä·ü=
+QuadraticDiscriminantAnalysis ì˜ ì •ë‹µë¥ =
 [0.97333333 0.96      ]
-RadiusNeighborsClassifier ÀÇ Á¤´ä·ü=
+RadiusNeighborsClassifier ì˜ ì •ë‹µë¥ =
 [0.93333333 0.92      ]
-RandomForestClassifier ÀÇ Á¤´ä·ü=
+RandomForestClassifier ì˜ ì •ë‹µë¥ =
 [0.96       0.93333333]
-RidgeClassifier ÀÇ Á¤´ä·ü=
+RidgeClassifier ì˜ ì •ë‹µë¥ =
 [0.78666667 0.84      ]
-RidgeClassifierCV ÀÇ Á¤´ä·ü=
+RidgeClassifierCV ì˜ ì •ë‹µë¥ =
 [0.84 0.92]
-SGDClassifier ÀÇ Á¤´ä·ü=
+SGDClassifier ì˜ ì •ë‹µë¥ =
 [0.65333333 0.41333333]
-SVC ÀÇ Á¤´ä·ü=
+SVC ì˜ ì •ë‹µë¥ =
 [0.97333333 0.97333333]
 =========================================================================================================n_split_value: 7
-AdaBoostClassifier ÀÇ Á¤´ä·ü=
+AdaBoostClassifier ì˜ ì •ë‹µë¥ =
 [0.94666667 0.93333333]
-BaggingClassifier ÀÇ Á¤´ä·ü=
+BaggingClassifier ì˜ ì •ë‹µë¥ =
 [0.97333333 0.96      ]
-BernoulliNB ÀÇ Á¤´ä·ü=
+BernoulliNB ì˜ ì •ë‹µë¥ =
 [0.26666667 0.22666667]
-CalibratedClassifierCV ÀÇ Á¤´ä·ü=
+CalibratedClassifierCV ì˜ ì •ë‹µë¥ =
 [0.88       0.93333333]
-ComplementNB ÀÇ Á¤´ä·ü=
+ComplementNB ì˜ ì •ë‹µë¥ =
 [0.69333333 0.64      ]
-DecisionTreeClassifier ÀÇ Á¤´ä·ü=
+DecisionTreeClassifier ì˜ ì •ë‹µë¥ =
 [0.90666667 0.94666667]
-ExtraTreeClassifier ÀÇ Á¤´ä·ü=
+ExtraTreeClassifier ì˜ ì •ë‹µë¥ =
 [0.94666667 0.96      ]
-ExtraTreesClassifier ÀÇ Á¤´ä·ü=
+ExtraTreesClassifier ì˜ ì •ë‹µë¥ =
 [0.98666667 0.94666667]
-GaussianNB ÀÇ Á¤´ä·ü=
+GaussianNB ì˜ ì •ë‹µë¥ =
 [0.96 0.96]
-GaussianProcessClassifier ÀÇ Á¤´ä·ü=
+GaussianProcessClassifier ì˜ ì •ë‹µë¥ =
 [0.98666667 0.90666667]
-GradientBoostingClassifier ÀÇ Á¤´ä·ü=
+GradientBoostingClassifier ì˜ ì •ë‹µë¥ =
 [0.96       0.97333333]
-KNeighborsClassifier ÀÇ Á¤´ä·ü=
+KNeighborsClassifier ì˜ ì •ë‹µë¥ =
 [0.97333333 0.96      ]
-LabelPropagation ÀÇ Á¤´ä·ü=
+LabelPropagation ì˜ ì •ë‹µë¥ =
 [0.96 0.96]
-LabelSpreading ÀÇ Á¤´ä·ü=
+LabelSpreading ì˜ ì •ë‹µë¥ =
 [0.96 0.96]
-LinearDiscriminantAnalysis ÀÇ Á¤´ä·ü=
+LinearDiscriminantAnalysis ì˜ ì •ë‹µë¥ =
 [0.98666667 0.94666667]
-LinearSVC ÀÇ Á¤´ä·ü=
+LinearSVC ì˜ ì •ë‹µë¥ =
 [0.97333333 0.92      ]
-LogisticRegression ÀÇ Á¤´ä·ü=
+LogisticRegression ì˜ ì •ë‹µë¥ =
 [0.90666667 0.93333333]
-LogisticRegressionCV ÀÇ Á¤´ä·ü=
+LogisticRegressionCV ì˜ ì •ë‹µë¥ =
 [0.92       0.90666667]
-MLPClassifier ÀÇ Á¤´ä·ü=
+MLPClassifier ì˜ ì •ë‹µë¥ =
 [0.97333333 0.97333333]
-MultinomialNB ÀÇ Á¤´ä·ü=
+MultinomialNB ì˜ ì •ë‹µë¥ =
 [0.92       0.97333333]
-NearestCentroid ÀÇ Á¤´ä·ü=
+NearestCentroid ì˜ ì •ë‹µë¥ =
 [0.93333333 0.89333333]
-NuSVC ÀÇ Á¤´ä·ü=
+NuSVC ì˜ ì •ë‹µë¥ =
 [0.97333333 0.94666667]
-PassiveAggressiveClassifier ÀÇ Á¤´ä·ü=
+PassiveAggressiveClassifier ì˜ ì •ë‹µë¥ =
 [0.68       0.62666667]
-Perceptron ÀÇ Á¤´ä·ü=
+Perceptron ì˜ ì •ë‹µë¥ =
 [0.74666667 0.66666667]
-QuadraticDiscriminantAnalysis ÀÇ Á¤´ä·ü=
+QuadraticDiscriminantAnalysis ì˜ ì •ë‹µë¥ =
 [0.98666667 0.94666667]
-RadiusNeighborsClassifier ÀÇ Á¤´ä·ü=
+RadiusNeighborsClassifier ì˜ ì •ë‹µë¥ =
 [0.93333333 0.96      ]
-RandomForestClassifier ÀÇ Á¤´ä·ü=
+RandomForestClassifier ì˜ ì •ë‹µë¥ =
 [0.94666667 0.92      ]
-RidgeClassifier ÀÇ Á¤´ä·ü=
+RidgeClassifier ì˜ ì •ë‹µë¥ =
 [0.86666667 0.72      ]
-RidgeClassifierCV ÀÇ Á¤´ä·ü=
+RidgeClassifierCV ì˜ ì •ë‹µë¥ =
 [0.77333333 0.81333333]
-SGDClassifier ÀÇ Á¤´ä·ü=
+SGDClassifier ì˜ ì •ë‹µë¥ =
 [0.70666667 0.62666667]
-SVC ÀÇ Á¤´ä·ü=
+SVC ì˜ ì •ë‹µë¥ =
 [0.92       0.97333333]
 n_split_value: 7
-AdaBoostClassifier ÀÇ Á¤´ä·ü=
+AdaBoostClassifier ì˜ ì •ë‹µë¥ =
 [0.92       0.94666667]
-BaggingClassifier ÀÇ Á¤´ä·ü=
+BaggingClassifier ì˜ ì •ë‹µë¥ =
 [0.94666667 0.94666667]
-BernoulliNB ÀÇ Á¤´ä·ü=
+BernoulliNB ì˜ ì •ë‹µë¥ =
 [0.32 0.32]
-CalibratedClassifierCV ÀÇ Á¤´ä·ü=
+CalibratedClassifierCV ì˜ ì •ë‹µë¥ =
 [0.82666667 0.97333333]
-ComplementNB ÀÇ Á¤´ä·ü=
+ComplementNB ì˜ ì •ë‹µë¥ =
 [0.6        0.73333333]
-DecisionTreeClassifier ÀÇ Á¤´ä·ü=
+DecisionTreeClassifier ì˜ ì •ë‹µë¥ =
 [0.93333333 0.94666667]
-ExtraTreeClassifier ÀÇ Á¤´ä·ü=
+ExtraTreeClassifier ì˜ ì •ë‹µë¥ =
 [0.86666667 0.93333333]
-ExtraTreesClassifier ÀÇ Á¤´ä·ü=
+ExtraTreesClassifier ì˜ ì •ë‹µë¥ =
 [0.88 0.96]
-GaussianNB ÀÇ Á¤´ä·ü=
+GaussianNB ì˜ ì •ë‹µë¥ =
 [0.96 0.96]
-GaussianProcessClassifier ÀÇ Á¤´ä·ü=
+GaussianProcessClassifier ì˜ ì •ë‹µë¥ =
 [0.96       0.93333333]
-GradientBoostingClassifier ÀÇ Á¤´ä·ü=
+GradientBoostingClassifier ì˜ ì •ë‹µë¥ =
 [0.97333333 0.94666667]
-KNeighborsClassifier ÀÇ Á¤´ä·ü=
+KNeighborsClassifier ì˜ ì •ë‹µë¥ =
 [0.92       0.98666667]
-LabelPropagation ÀÇ Á¤´ä·ü=
+LabelPropagation ì˜ ì •ë‹µë¥ =
 [0.96       0.94666667]
-LabelSpreading ÀÇ Á¤´ä·ü=
+LabelSpreading ì˜ ì •ë‹µë¥ =
 [0.96       0.94666667]
-LinearDiscriminantAnalysis ÀÇ Á¤´ä·ü=
+LinearDiscriminantAnalysis ì˜ ì •ë‹µë¥ =
 [0.98666667 0.97333333]
-LinearSVC ÀÇ Á¤´ä·ü=
+LinearSVC ì˜ ì •ë‹µë¥ =
 [0.98666667 0.92      ]
-LogisticRegression ÀÇ Á¤´ä·ü=
+LogisticRegression ì˜ ì •ë‹µë¥ =
 [0.92       0.93333333]
-LogisticRegressionCV ÀÇ Á¤´ä·ü=
+LogisticRegressionCV ì˜ ì •ë‹µë¥ =
 [0.89333333 0.94666667]
-MLPClassifier ÀÇ Á¤´ä·ü=
+MLPClassifier ì˜ ì •ë‹µë¥ =
 [0.98666667 0.98666667]
-MultinomialNB ÀÇ Á¤´ä·ü=
+MultinomialNB ì˜ ì •ë‹µë¥ =
 [0.78666667 0.62666667]
-NearestCentroid ÀÇ Á¤´ä·ü=
+NearestCentroid ì˜ ì •ë‹µë¥ =
 [0.94666667 0.90666667]
-NuSVC ÀÇ Á¤´ä·ü=
+NuSVC ì˜ ì •ë‹µë¥ =
 [0.98666667 0.96      ]
-PassiveAggressiveClassifier ÀÇ Á¤´ä·ü=
+PassiveAggressiveClassifier ì˜ ì •ë‹µë¥ =
 [0.65333333 0.66666667]
-Perceptron ÀÇ Á¤´ä·ü=
+Perceptron ì˜ ì •ë‹µë¥ =
 [0.68       0.46666667]
-QuadraticDiscriminantAnalysis ÀÇ Á¤´ä·ü=
+QuadraticDiscriminantAnalysis ì˜ ì •ë‹µë¥ =
 [0.96       0.97333333]
-RadiusNeighborsClassifier ÀÇ Á¤´ä·ü=
+RadiusNeighborsClassifier ì˜ ì •ë‹µë¥ =
 [0.93333333 0.96      ]
-RandomForestClassifier ÀÇ Á¤´ä·ü=
+RandomForestClassifier ì˜ ì •ë‹µë¥ =
 [0.96       0.94666667]
-RidgeClassifier ÀÇ Á¤´ä·ü=
+RidgeClassifier ì˜ ì •ë‹µë¥ =
 [0.78666667 0.82666667]
-RidgeClassifierCV ÀÇ Á¤´ä·ü=
+RidgeClassifierCV ì˜ ì •ë‹µë¥ =
 [0.88       0.77333333]
-SGDClassifier ÀÇ Á¤´ä·ü=
+SGDClassifier ì˜ ì •ë‹µë¥ =
 [0.66666667 0.66666667]
-SVC ÀÇ Á¤´ä·ü=
+SVC ì˜ ì •ë‹µë¥ =
 [0.97333333 0.94666667]
 n_split_value: 7
-AdaBoostClassifier ÀÇ Á¤´ä·ü=
+AdaBoostClassifier ì˜ ì •ë‹µë¥ =
 [0.96       0.94666667]
-BaggingClassifier ÀÇ Á¤´ä·ü=
+BaggingClassifier ì˜ ì •ë‹µë¥ =
 [0.96       0.97333333]
-BernoulliNB ÀÇ Á¤´ä·ü=
+BernoulliNB ì˜ ì •ë‹µë¥ =
 [0.30666667 0.30666667]
-CalibratedClassifierCV ÀÇ Á¤´ä·ü=
+CalibratedClassifierCV ì˜ ì •ë‹µë¥ =
 [0.84 1.  ]
-ComplementNB ÀÇ Á¤´ä·ü=
+ComplementNB ì˜ ì •ë‹µë¥ =
 [0.72       0.61333333]
-DecisionTreeClassifier ÀÇ Á¤´ä·ü=
+DecisionTreeClassifier ì˜ ì •ë‹µë¥ =
 [0.96       0.97333333]
-ExtraTreeClassifier ÀÇ Á¤´ä·ü=
+ExtraTreeClassifier ì˜ ì •ë‹µë¥ =
 [0.93333333 0.94666667]
-ExtraTreesClassifier ÀÇ Á¤´ä·ü=
+ExtraTreesClassifier ì˜ ì •ë‹µë¥ =
 [0.94666667 0.94666667]
-GaussianNB ÀÇ Á¤´ä·ü=
+GaussianNB ì˜ ì •ë‹µë¥ =
 [0.94666667 0.96      ]
-GaussianProcessClassifier ÀÇ Á¤´ä·ü=
+GaussianProcessClassifier ì˜ ì •ë‹µë¥ =
 [0.98666667 0.96      ]
-GradientBoostingClassifier ÀÇ Á¤´ä·ü=
+GradientBoostingClassifier ì˜ ì •ë‹µë¥ =
 [0.92       0.97333333]
-KNeighborsClassifier ÀÇ Á¤´ä·ü=
+KNeighborsClassifier ì˜ ì •ë‹µë¥ =
 [0.97333333 0.93333333]
-LabelPropagation ÀÇ Á¤´ä·ü=
+LabelPropagation ì˜ ì •ë‹µë¥ =
 [0.96       0.93333333]
-LabelSpreading ÀÇ Á¤´ä·ü=
+LabelSpreading ì˜ ì •ë‹µë¥ =
 [0.96 0.96]
-LinearDiscriminantAnalysis ÀÇ Á¤´ä·ü=
+LinearDiscriminantAnalysis ì˜ ì •ë‹µë¥ =
 [1.   0.96]
-LinearSVC ÀÇ Á¤´ä·ü=
+LinearSVC ì˜ ì •ë‹µë¥ =
 [0.97333333 0.90666667]
-LogisticRegression ÀÇ Á¤´ä·ü=
+LogisticRegression ì˜ ì •ë‹µë¥ =
 [0.90666667 0.97333333]
-LogisticRegressionCV ÀÇ Á¤´ä·ü=
+LogisticRegressionCV ì˜ ì •ë‹µë¥ =
 [0.93333333 0.94666667]
-MLPClassifier ÀÇ Á¤´ä·ü=
+MLPClassifier ì˜ ì •ë‹µë¥ =
 [0.96       0.94666667]
-MultinomialNB ÀÇ Á¤´ä·ü=
+MultinomialNB ì˜ ì •ë‹µë¥ =
 [0.93333333 0.93333333]
-NearestCentroid ÀÇ Á¤´ä·ü=
+NearestCentroid ì˜ ì •ë‹µë¥ =
 [0.94666667 0.92      ]
-NuSVC ÀÇ Á¤´ä·ü=
+NuSVC ì˜ ì •ë‹µë¥ =
 [0.88       0.89333333]
-PassiveAggressiveClassifier ÀÇ Á¤´ä·ü=
+PassiveAggressiveClassifier ì˜ ì •ë‹µë¥ =
 [0.69333333 0.65333333]
-Perceptron ÀÇ Á¤´ä·ü=
+Perceptron ì˜ ì •ë‹µë¥ =
 [0.42666667 0.58666667]
-QuadraticDiscriminantAnalysis ÀÇ Á¤´ä·ü=
+QuadraticDiscriminantAnalysis ì˜ ì •ë‹µë¥ =
 [0.98666667 0.97333333]
-RadiusNeighborsClassifier ÀÇ Á¤´ä·ü=
+RadiusNeighborsClassifier ì˜ ì •ë‹µë¥ =
 [0.93333333 0.96      ]
-RandomForestClassifier ÀÇ Á¤´ä·ü=
+RandomForestClassifier ì˜ ì •ë‹µë¥ =
 [0.93333333 0.96      ]
-RidgeClassifier ÀÇ Á¤´ä·ü=
+RidgeClassifier ì˜ ì •ë‹µë¥ =
 [0.76       0.89333333]
-RidgeClassifierCV ÀÇ Á¤´ä·ü=
+RidgeClassifierCV ì˜ ì •ë‹µë¥ =
 [0.84 0.84]
-SGDClassifier ÀÇ Á¤´ä·ü=
+SGDClassifier ì˜ ì •ë‹µë¥ =
 [0.56       0.61333333]
-SVC ÀÇ Á¤´ä·ü=
+SVC ì˜ ì •ë‹µë¥ =
 [0.98666667 0.94666667]
 n_split_value: 7
-AdaBoostClassifier ÀÇ Á¤´ä·ü=
+AdaBoostClassifier ì˜ ì •ë‹µë¥ =
 [0.96       0.94666667]
-BaggingClassifier ÀÇ Á¤´ä·ü=
+BaggingClassifier ì˜ ì •ë‹µë¥ =
 [0.96 0.96]
-BernoulliNB ÀÇ Á¤´ä·ü=
+BernoulliNB ì˜ ì •ë‹µë¥ =
 [0.2        0.26666667]
-CalibratedClassifierCV ÀÇ Á¤´ä·ü=
+CalibratedClassifierCV ì˜ ì •ë‹µë¥ =
 [0.86666667 0.88      ]
-ComplementNB ÀÇ Á¤´ä·ü=
+ComplementNB ì˜ ì •ë‹µë¥ =
 [0.70666667 0.62666667]
-DecisionTreeClassifier ÀÇ Á¤´ä·ü=
+DecisionTreeClassifier ì˜ ì •ë‹µë¥ =
 [0.92       0.93333333]
-ExtraTreeClassifier ÀÇ Á¤´ä·ü=
+ExtraTreeClassifier ì˜ ì •ë‹µë¥ =
 [0.89333333 0.97333333]
-ExtraTreesClassifier ÀÇ Á¤´ä·ü=
+ExtraTreesClassifier ì˜ ì •ë‹µë¥ =
 [0.96       0.94666667]
-GaussianNB ÀÇ Á¤´ä·ü=
+GaussianNB ì˜ ì •ë‹µë¥ =
 [0.97333333 0.93333333]
-GaussianProcessClassifier ÀÇ Á¤´ä·ü=
+GaussianProcessClassifier ì˜ ì •ë‹µë¥ =
 [0.98666667 0.89333333]
-GradientBoostingClassifier ÀÇ Á¤´ä·ü=
+GradientBoostingClassifier ì˜ ì •ë‹µë¥ =
 [0.93333333 0.97333333]
-KNeighborsClassifier ÀÇ Á¤´ä·ü=
+KNeighborsClassifier ì˜ ì •ë‹µë¥ =
 [0.97333333 0.96      ]
-LabelPropagation ÀÇ Á¤´ä·ü=
+LabelPropagation ì˜ ì •ë‹µë¥ =
 [0.96       0.97333333]
-LabelSpreading ÀÇ Á¤´ä·ü=
+LabelSpreading ì˜ ì •ë‹µë¥ =
 [0.94666667 0.97333333]
-LinearDiscriminantAnalysis ÀÇ Á¤´ä·ü=
+LinearDiscriminantAnalysis ì˜ ì •ë‹µë¥ =
 [0.97333333 0.98666667]
-LinearSVC ÀÇ Á¤´ä·ü=
+LinearSVC ì˜ ì •ë‹µë¥ =
 [0.93333333 0.94666667]
-LogisticRegression ÀÇ Á¤´ä·ü=
+LogisticRegression ì˜ ì •ë‹µë¥ =
 [0.96       0.94666667]
-LogisticRegressionCV ÀÇ Á¤´ä·ü=
+LogisticRegressionCV ì˜ ì •ë‹µë¥ =
 [0.92       0.93333333]
-MLPClassifier ÀÇ Á¤´ä·ü=
+MLPClassifier ì˜ ì •ë‹µë¥ =
 [0.97333333 0.97333333]
-MultinomialNB ÀÇ Á¤´ä·ü=
+MultinomialNB ì˜ ì •ë‹µë¥ =
 [0.85333333 0.73333333]
-NearestCentroid ÀÇ Á¤´ä·ü=
+NearestCentroid ì˜ ì •ë‹µë¥ =
 [0.94666667 0.90666667]
-NuSVC ÀÇ Á¤´ä·ü=
+NuSVC ì˜ ì •ë‹µë¥ =
 [0.96       0.86666667]
-PassiveAggressiveClassifier ÀÇ Á¤´ä·ü=
+PassiveAggressiveClassifier ì˜ ì •ë‹µë¥ =
 [0.65333333 0.94666667]
-Perceptron ÀÇ Á¤´ä·ü=
+Perceptron ì˜ ì •ë‹µë¥ =
 [0.70666667 0.73333333]
-QuadraticDiscriminantAnalysis ÀÇ Á¤´ä·ü=
+QuadraticDiscriminantAnalysis ì˜ ì •ë‹µë¥ =
 [0.93333333 0.98666667]
-RadiusNeighborsClassifier ÀÇ Á¤´ä·ü=
+RadiusNeighborsClassifier ì˜ ì •ë‹µë¥ =
 [0.92       0.97333333]
-RandomForestClassifier ÀÇ Á¤´ä·ü=
+RandomForestClassifier ì˜ ì •ë‹µë¥ =
 [0.94666667 0.97333333]
-RidgeClassifier ÀÇ Á¤´ä·ü=
+RidgeClassifier ì˜ ì •ë‹µë¥ =
 [0.8        0.77333333]
-RidgeClassifierCV ÀÇ Á¤´ä·ü=
+RidgeClassifierCV ì˜ ì •ë‹µë¥ =
 [0.8        0.81333333]
-SGDClassifier ÀÇ Á¤´ä·ü=
+SGDClassifier ì˜ ì •ë‹µë¥ =
 [0.68       0.61333333]
-SVC ÀÇ Á¤´ä·ü=
+SVC ì˜ ì •ë‹µë¥ =
 [0.96       0.97333333]
 n_split_value: 7
-AdaBoostClassifier ÀÇ Á¤´ä·ü=
+AdaBoostClassifier ì˜ ì •ë‹µë¥ =
 [0.94666667 0.94666667]
-BaggingClassifier ÀÇ Á¤´ä·ü=
+BaggingClassifier ì˜ ì •ë‹µë¥ =
 [0.97333333 0.92      ]
-BernoulliNB ÀÇ Á¤´ä·ü=
+BernoulliNB ì˜ ì •ë‹µë¥ =
 [0.24 0.28]
-CalibratedClassifierCV ÀÇ Á¤´ä·ü=
+CalibratedClassifierCV ì˜ ì •ë‹µë¥ =
 [0.92       0.90666667]
-ComplementNB ÀÇ Á¤´ä·ü=
+ComplementNB ì˜ ì •ë‹µë¥ =
 [0.68       0.65333333]
-DecisionTreeClassifier ÀÇ Á¤´ä·ü=
+DecisionTreeClassifier ì˜ ì •ë‹µë¥ =
 [0.97333333 0.94666667]
-ExtraTreeClassifier ÀÇ Á¤´ä·ü=
+ExtraTreeClassifier ì˜ ì •ë‹µë¥ =
 [0.97333333 0.88      ]
-ExtraTreesClassifier ÀÇ Á¤´ä·ü=
+ExtraTreesClassifier ì˜ ì •ë‹µë¥ =
 [0.93333333 0.96      ]
-GaussianNB ÀÇ Á¤´ä·ü=
+GaussianNB ì˜ ì •ë‹µë¥ =
 [0.93333333 0.96      ]
-GaussianProcessClassifier ÀÇ Á¤´ä·ü=
+GaussianProcessClassifier ì˜ ì •ë‹µë¥ =
 [0.98666667 0.93333333]
-GradientBoostingClassifier ÀÇ Á¤´ä·ü=
+GradientBoostingClassifier ì˜ ì •ë‹µë¥ =
 [0.96       0.97333333]
-KNeighborsClassifier ÀÇ Á¤´ä·ü=
+KNeighborsClassifier ì˜ ì •ë‹µë¥ =
 [0.97333333 0.97333333]
-LabelPropagation ÀÇ Á¤´ä·ü=
+LabelPropagation ì˜ ì •ë‹µë¥ =
 [0.93333333 0.96      ]
-LabelSpreading ÀÇ Á¤´ä·ü=
+LabelSpreading ì˜ ì •ë‹µë¥ =
 [0.98666667 0.94666667]
-LinearDiscriminantAnalysis ÀÇ Á¤´ä·ü=
+LinearDiscriminantAnalysis ì˜ ì •ë‹µë¥ =
 [0.98666667 0.97333333]
-LinearSVC ÀÇ Á¤´ä·ü=
+LinearSVC ì˜ ì •ë‹µë¥ =
 [0.96 0.88]
-LogisticRegression ÀÇ Á¤´ä·ü=
+LogisticRegression ì˜ ì •ë‹µë¥ =
 [0.94666667 0.97333333]
-LogisticRegressionCV ÀÇ Á¤´ä·ü=
+LogisticRegressionCV ì˜ ì •ë‹µë¥ =
 [1.         0.86666667]
-MLPClassifier ÀÇ Á¤´ä·ü=
+MLPClassifier ì˜ ì •ë‹µë¥ =
 [0.98666667 0.97333333]
-MultinomialNB ÀÇ Á¤´ä·ü=
+MultinomialNB ì˜ ì •ë‹µë¥ =
 [0.64       0.58666667]
-NearestCentroid ÀÇ Á¤´ä·ü=
+NearestCentroid ì˜ ì •ë‹µë¥ =
 [0.89333333 0.94666667]
-NuSVC ÀÇ Á¤´ä·ü=
+NuSVC ì˜ ì •ë‹µë¥ =
 [0.93333333 0.96      ]
-PassiveAggressiveClassifier ÀÇ Á¤´ä·ü=
+PassiveAggressiveClassifier ì˜ ì •ë‹µë¥ =
 [0.65333333 0.70666667]
-Perceptron ÀÇ Á¤´ä·ü=
+Perceptron ì˜ ì •ë‹µë¥ =
 [0.96       0.42666667]
-QuadraticDiscriminantAnalysis ÀÇ Á¤´ä·ü=
+QuadraticDiscriminantAnalysis ì˜ ì •ë‹µë¥ =
 [0.97333333 0.98666667]
-RadiusNeighborsClassifier ÀÇ Á¤´ä·ü=
+RadiusNeighborsClassifier ì˜ ì •ë‹µë¥ =
 [0.94666667 0.98666667]
-RandomForestClassifier ÀÇ Á¤´ä·ü=
+RandomForestClassifier ì˜ ì •ë‹µë¥ =
 [0.94666667 0.94666667]
-RidgeClassifier ÀÇ Á¤´ä·ü=
+RidgeClassifier ì˜ ì •ë‹µë¥ =
 [0.81333333 0.74666667]
-RidgeClassifierCV ÀÇ Á¤´ä·ü=
+RidgeClassifierCV ì˜ ì •ë‹µë¥ =
 [0.82666667 0.89333333]
-SGDClassifier ÀÇ Á¤´ä·ü=
+SGDClassifier ì˜ ì •ë‹µë¥ =
 [0.70666667 0.62666667]
-SVC ÀÇ Á¤´ä·ü=
+SVC ì˜ ì •ë‹µë¥ =
 [0.97333333 0.94666667]
 n_split_value: 7
-AdaBoostClassifier ÀÇ Á¤´ä·ü=
+AdaBoostClassifier ì˜ ì •ë‹µë¥ =
 [0.96 0.96]
-BaggingClassifier ÀÇ Á¤´ä·ü=
+BaggingClassifier ì˜ ì •ë‹µë¥ =
 [0.94666667 0.96      ]
-BernoulliNB ÀÇ Á¤´ä·ü=
+BernoulliNB ì˜ ì •ë‹µë¥ =
 [0.30666667 0.29333333]
-CalibratedClassifierCV ÀÇ Á¤´ä·ü=
+CalibratedClassifierCV ì˜ ì •ë‹µë¥ =
 [0.88       0.94666667]
-ComplementNB ÀÇ Á¤´ä·ü=
+ComplementNB ì˜ ì •ë‹µë¥ =
 [0.78666667 0.54666667]
-DecisionTreeClassifier ÀÇ Á¤´ä·ü=
+DecisionTreeClassifier ì˜ ì •ë‹µë¥ =
 [0.94666667 0.94666667]
-ExtraTreeClassifier ÀÇ Á¤´ä·ü=
+ExtraTreeClassifier ì˜ ì •ë‹µë¥ =
 [0.92       0.85333333]
-ExtraTreesClassifier ÀÇ Á¤´ä·ü=
+ExtraTreesClassifier ì˜ ì •ë‹µë¥ =
 [0.94666667 0.97333333]
-GaussianNB ÀÇ Á¤´ä·ü=
+GaussianNB ì˜ ì •ë‹µë¥ =
 [0.92 0.96]
-GaussianProcessClassifier ÀÇ Á¤´ä·ü=
+GaussianProcessClassifier ì˜ ì •ë‹µë¥ =
 [0.93333333 0.96      ]
-GradientBoostingClassifier ÀÇ Á¤´ä·ü=
+GradientBoostingClassifier ì˜ ì •ë‹µë¥ =
 [0.94666667 0.96      ]
-KNeighborsClassifier ÀÇ Á¤´ä·ü=
+KNeighborsClassifier ì˜ ì •ë‹µë¥ =
 [0.96       0.97333333]
-LabelPropagation ÀÇ Á¤´ä·ü=
+LabelPropagation ì˜ ì •ë‹µë¥ =
 [0.96 0.96]
-LabelSpreading ÀÇ Á¤´ä·ü=
+LabelSpreading ì˜ ì •ë‹µë¥ =
 [0.97333333 0.94666667]
-LinearDiscriminantAnalysis ÀÇ Á¤´ä·ü=
+LinearDiscriminantAnalysis ì˜ ì •ë‹µë¥ =
 [0.97333333 0.98666667]
-LinearSVC ÀÇ Á¤´ä·ü=
+LinearSVC ì˜ ì •ë‹µë¥ =
 [0.94666667 0.94666667]
-LogisticRegression ÀÇ Á¤´ä·ü=
+LogisticRegression ì˜ ì •ë‹µë¥ =
 [0.94666667 0.97333333]
-LogisticRegressionCV ÀÇ Á¤´ä·ü=
+LogisticRegressionCV ì˜ ì •ë‹µë¥ =
 [0.94666667 0.93333333]
-MLPClassifier ÀÇ Á¤´ä·ü=
+MLPClassifier ì˜ ì •ë‹µë¥ =
 [0.94666667 0.94666667]
-MultinomialNB ÀÇ Á¤´ä·ü=
+MultinomialNB ì˜ ì •ë‹µë¥ =
 [0.81333333 0.74666667]
-NearestCentroid ÀÇ Á¤´ä·ü=
+NearestCentroid ì˜ ì •ë‹µë¥ =
 [0.93333333 0.90666667]
-NuSVC ÀÇ Á¤´ä·ü=
+NuSVC ì˜ ì •ë‹µë¥ =
 [0.94666667 0.94666667]
-PassiveAggressiveClassifier ÀÇ Á¤´ä·ü=
+PassiveAggressiveClassifier ì˜ ì •ë‹µë¥ =
 [0.66666667 0.70666667]
-Perceptron ÀÇ Á¤´ä·ü=
+Perceptron ì˜ ì •ë‹µë¥ =
 [0.65333333 0.88      ]
-QuadraticDiscriminantAnalysis ÀÇ Á¤´ä·ü=
+QuadraticDiscriminantAnalysis ì˜ ì •ë‹µë¥ =
 [1.         0.94666667]
-RadiusNeighborsClassifier ÀÇ Á¤´ä·ü=
+RadiusNeighborsClassifier ì˜ ì •ë‹µë¥ =
 [0.94666667 1.        ]
-RandomForestClassifier ÀÇ Á¤´ä·ü=
+RandomForestClassifier ì˜ ì •ë‹µë¥ =
 [0.92       0.98666667]
-RidgeClassifier ÀÇ Á¤´ä·ü=
+RidgeClassifier ì˜ ì •ë‹µë¥ =
 [0.77333333 0.8       ]
-RidgeClassifierCV ÀÇ Á¤´ä·ü=
+RidgeClassifierCV ì˜ ì •ë‹µë¥ =
 [0.84       0.85333333]
-SGDClassifier ÀÇ Á¤´ä·ü=
+SGDClassifier ì˜ ì •ë‹µë¥ =
 [0.4  0.72]
-SVC ÀÇ Á¤´ä·ü=
+SVC ì˜ ì •ë‹µë¥ =
 [0.97333333 0.97333333]
 n_split_value: 7
-AdaBoostClassifier ÀÇ Á¤´ä·ü=
+AdaBoostClassifier ì˜ ì •ë‹µë¥ =
 [0.96 0.96]
-BaggingClassifier ÀÇ Á¤´ä·ü=
+BaggingClassifier ì˜ ì •ë‹µë¥ =
 [0.92       0.93333333]
-BernoulliNB ÀÇ Á¤´ä·ü=
+BernoulliNB ì˜ ì •ë‹µë¥ =
 [0.30666667 0.29333333]
-CalibratedClassifierCV ÀÇ Á¤´ä·ü=
+CalibratedClassifierCV ì˜ ì •ë‹µë¥ =
 [0.82666667 0.86666667]
-ComplementNB ÀÇ Á¤´ä·ü=
+ComplementNB ì˜ ì •ë‹µë¥ =
 [0.66666667 0.66666667]
-DecisionTreeClassifier ÀÇ Á¤´ä·ü=
+DecisionTreeClassifier ì˜ ì •ë‹µë¥ =
 [0.93333333 0.90666667]
-ExtraTreeClassifier ÀÇ Á¤´ä·ü=
+ExtraTreeClassifier ì˜ ì •ë‹µë¥ =
 [0.96 0.92]
-ExtraTreesClassifier ÀÇ Á¤´ä·ü=
+ExtraTreesClassifier ì˜ ì •ë‹µë¥ =
 [0.98666667 0.93333333]
-GaussianNB ÀÇ Á¤´ä·ü=
+GaussianNB ì˜ ì •ë‹µë¥ =
 [0.96       0.94666667]
-GaussianProcessClassifier ÀÇ Á¤´ä·ü=
+GaussianProcessClassifier ì˜ ì •ë‹µë¥ =
 [0.93333333 0.98666667]
-GradientBoostingClassifier ÀÇ Á¤´ä·ü=
+GradientBoostingClassifier ì˜ ì •ë‹µë¥ =
 [0.92       0.93333333]
-KNeighborsClassifier ÀÇ Á¤´ä·ü=
+KNeighborsClassifier ì˜ ì •ë‹µë¥ =
 [0.97333333 0.96      ]
-LabelPropagation ÀÇ Á¤´ä·ü=
+LabelPropagation ì˜ ì •ë‹µë¥ =
 [0.96       0.97333333]
-LabelSpreading ÀÇ Á¤´ä·ü=
+LabelSpreading ì˜ ì •ë‹µë¥ =
 [0.92       0.97333333]
-LinearDiscriminantAnalysis ÀÇ Á¤´ä·ü=
+LinearDiscriminantAnalysis ì˜ ì •ë‹µë¥ =
 [0.97333333 0.97333333]
-LinearSVC ÀÇ Á¤´ä·ü=
+LinearSVC ì˜ ì •ë‹µë¥ =
 [0.96 0.96]
-LogisticRegression ÀÇ Á¤´ä·ü=
+LogisticRegression ì˜ ì •ë‹µë¥ =
 [0.89333333 0.89333333]
-LogisticRegressionCV ÀÇ Á¤´ä·ü=
+LogisticRegressionCV ì˜ ì •ë‹µë¥ =
 [0.93333333 0.92      ]
-MLPClassifier ÀÇ Á¤´ä·ü=
+MLPClassifier ì˜ ì •ë‹µë¥ =
 [0.78666667 0.93333333]
-MultinomialNB ÀÇ Á¤´ä·ü=
+MultinomialNB ì˜ ì •ë‹µë¥ =
 [0.62666667 0.64      ]
-NearestCentroid ÀÇ Á¤´ä·ü=
+NearestCentroid ì˜ ì •ë‹µë¥ =
 [0.92       0.93333333]
-NuSVC ÀÇ Á¤´ä·ü=
+NuSVC ì˜ ì •ë‹µë¥ =
 [0.93333333 0.97333333]
-PassiveAggressiveClassifier ÀÇ Á¤´ä·ü=
+PassiveAggressiveClassifier ì˜ ì •ë‹µë¥ =
 [0.66666667 0.66666667]
-Perceptron ÀÇ Á¤´ä·ü=
+Perceptron ì˜ ì •ë‹µë¥ =
 [0.69333333 0.69333333]
-QuadraticDiscriminantAnalysis ÀÇ Á¤´ä·ü=
+QuadraticDiscriminantAnalysis ì˜ ì •ë‹µë¥ =
 [1.         0.94666667]
-RadiusNeighborsClassifier ÀÇ Á¤´ä·ü=
+RadiusNeighborsClassifier ì˜ ì •ë‹µë¥ =
 [0.94666667 0.98666667]
-RandomForestClassifier ÀÇ Á¤´ä·ü=
+RandomForestClassifier ì˜ ì •ë‹µë¥ =
 [0.92       0.98666667]
-RidgeClassifier ÀÇ Á¤´ä·ü=
+RidgeClassifier ì˜ ì •ë‹µë¥ =
 [0.81333333 0.89333333]
-RidgeClassifierCV ÀÇ Á¤´ä·ü=
+RidgeClassifierCV ì˜ ì •ë‹µë¥ =
 [0.85333333 0.85333333]
-SGDClassifier ÀÇ Á¤´ä·ü=
+SGDClassifier ì˜ ì •ë‹µë¥ =
 [0.58666667 0.88      ]
-SVC ÀÇ Á¤´ä·ü=
+SVC ì˜ ì •ë‹µë¥ =
 [0.93333333 0.97333333]
 n_split_value: 7
-AdaBoostClassifier ÀÇ Á¤´ä·ü=
+AdaBoostClassifier ì˜ ì •ë‹µë¥ =
 [0.97333333 0.96      ]
-BaggingClassifier ÀÇ Á¤´ä·ü=
+BaggingClassifier ì˜ ì •ë‹µë¥ =
 [0.93333333 0.94666667]
-BernoulliNB ÀÇ Á¤´ä·ü=
+BernoulliNB ì˜ ì •ë‹µë¥ =
 [0.30666667 0.32      ]
-CalibratedClassifierCV ÀÇ Á¤´ä·ü=
+CalibratedClassifierCV ì˜ ì •ë‹µë¥ =
 [0.86666667 0.93333333]
-ComplementNB ÀÇ Á¤´ä·ü=
+ComplementNB ì˜ ì •ë‹µë¥ =
 [0.66666667 0.66666667]
-DecisionTreeClassifier ÀÇ Á¤´ä·ü=
+DecisionTreeClassifier ì˜ ì •ë‹µë¥ =
 [0.93333333 0.93333333]
-ExtraTreeClassifier ÀÇ Á¤´ä·ü=
+ExtraTreeClassifier ì˜ ì •ë‹µë¥ =
 [0.97333333 0.88      ]
-ExtraTreesClassifier ÀÇ Á¤´ä·ü=
+ExtraTreesClassifier ì˜ ì •ë‹µë¥ =
 [0.96       0.94666667]
-GaussianNB ÀÇ Á¤´ä·ü=
+GaussianNB ì˜ ì •ë‹µë¥ =
 [0.97333333 0.92      ]
-GaussianProcessClassifier ÀÇ Á¤´ä·ü=
+GaussianProcessClassifier ì˜ ì •ë‹µë¥ =
 [0.98666667 0.94666667]
-GradientBoostingClassifier ÀÇ Á¤´ä·ü=
+GradientBoostingClassifier ì˜ ì •ë‹µë¥ =
 [0.92       0.93333333]
-KNeighborsClassifier ÀÇ Á¤´ä·ü=
+KNeighborsClassifier ì˜ ì •ë‹µë¥ =
 [0.96       0.98666667]
-LabelPropagation ÀÇ Á¤´ä·ü=
+LabelPropagation ì˜ ì •ë‹µë¥ =
 [0.94666667 0.96      ]
-LabelSpreading ÀÇ Á¤´ä·ü=
+LabelSpreading ì˜ ì •ë‹µë¥ =
 [0.92       0.94666667]
-LinearDiscriminantAnalysis ÀÇ Á¤´ä·ü=
+LinearDiscriminantAnalysis ì˜ ì •ë‹µë¥ =
 [0.98666667 0.96      ]
-LinearSVC ÀÇ Á¤´ä·ü=
+LinearSVC ì˜ ì •ë‹µë¥ =
 [0.96       0.97333333]
-LogisticRegression ÀÇ Á¤´ä·ü=
+LogisticRegression ì˜ ì •ë‹µë¥ =
 [0.90666667 0.98666667]
-LogisticRegressionCV ÀÇ Á¤´ä·ü=
+LogisticRegressionCV ì˜ ì •ë‹µë¥ =
 [0.90666667 0.93333333]
-MLPClassifier ÀÇ Á¤´ä·ü=
+MLPClassifier ì˜ ì •ë‹µë¥ =
 [1.         0.94666667]
-MultinomialNB ÀÇ Á¤´ä·ü=
+MultinomialNB ì˜ ì •ë‹µë¥ =
 [0.65333333 0.76      ]
-NearestCentroid ÀÇ Á¤´ä·ü=
+NearestCentroid ì˜ ì •ë‹µë¥ =
 [0.92       0.93333333]
-NuSVC ÀÇ Á¤´ä·ü=
+NuSVC ì˜ ì •ë‹µë¥ =
 [0.96       0.94666667]
-PassiveAggressiveClassifier ÀÇ Á¤´ä·ü=
+PassiveAggressiveClassifier ì˜ ì •ë‹µë¥ =
 [0.66666667 0.64      ]
-Perceptron ÀÇ Á¤´ä·ü=
+Perceptron ì˜ ì •ë‹µë¥ =
 [0.41333333 0.61333333]
-QuadraticDiscriminantAnalysis ÀÇ Á¤´ä·ü=
+QuadraticDiscriminantAnalysis ì˜ ì •ë‹µë¥ =
 [0.94666667 0.97333333]
-RadiusNeighborsClassifier ÀÇ Á¤´ä·ü=
+RadiusNeighborsClassifier ì˜ ì •ë‹µë¥ =
 [0.92 1.  ]
-RandomForestClassifier ÀÇ Á¤´ä·ü=
+RandomForestClassifier ì˜ ì •ë‹µë¥ =
 [0.93333333 0.97333333]
-RidgeClassifier ÀÇ Á¤´ä·ü=
+RidgeClassifier ì˜ ì •ë‹µë¥ =
 [0.8  0.68]
-RidgeClassifierCV ÀÇ Á¤´ä·ü=
+RidgeClassifierCV ì˜ ì •ë‹µë¥ =
 [0.82666667 0.84      ]
-SGDClassifier ÀÇ Á¤´ä·ü=
+SGDClassifier ì˜ ì •ë‹µë¥ =
 [0.32       0.70666667]
-SVC ÀÇ Á¤´ä·ü=
+SVC ì˜ ì •ë‹µë¥ =
 [0.96 1.  ]
